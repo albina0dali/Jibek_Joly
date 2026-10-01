@@ -1,0 +1,4 @@
+import {sqliteTable,text,integer,real,index} from 'drizzle-orm/sqlite-core';
+export const settings=sqliteTable('settings',{id:text('id').primaryKey(),value:text('value').notNull(),updated:integer('updated').notNull()});
+export const sessions=sqliteTable('sessions',{id:text('id').primaryKey(),owner:text('owner').notNull(),state:text('state').notNull(),running:integer('running').notNull().default(0),version:integer('version').notNull().default(0),updated:integer('updated').notNull()},t=>[index('sessions_owner').on(t.owner)]);
+export const samples=sqliteTable('samples',{id:text('id').primaryKey(),session:text('session').notNull(),owner:text('owner').notNull(),modelTime:real('model_time').notNull(),state:text('state').notNull(),created:integer('created').notNull()},t=>[index('samples_session_time').on(t.session,t.created),index('samples_expiry').on(t.created)]);

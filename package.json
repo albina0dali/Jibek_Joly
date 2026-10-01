@@ -1,0 +1,21 @@
+{
+  "name": "jol-station",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check web/app.js && node --check web/advanced-ui.js && node --check server/index.js"
+  },
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.3",
+    "esbuild": "^0.28.2",
+    "leaflet": "1.9.4",
+    "pdf-lib": "^1.17.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "miniflare": "^4.20260730.0"
+  }
+}
