@@ -1,0 +1,258 @@
+{
+  "snapshots": [
+    {
+      "time": 1500,
+      "quality": 92.1
+    },
+    {
+      "time": 1515,
+      "quality": 92.1
+    },
+    {
+      "time": 1530,
+      "quality": 92.6
+    },
+    {
+      "time": 1545,
+      "quality": 92.6
+    },
+    {
+      "time": 1560,
+      "quality": 92.6
+    },
+    {
+      "time": 1575,
+      "quality": 92.6
+    },
+    {
+      "time": 1590,
+      "quality": 92.6
+    },
+    {
+      "time": 1605,
+      "quality": 92.1
+    },
+    {
+      "time": 1620,
+      "quality": 92.1
+    },
+    {
+      "time": 1635,
+      "quality": 92.1
+    },
+    {
+      "time": 1650,
+      "quality": 92.1
+    },
+    {
+      "time": 1665,
+      "quality": 92.1
+    },
+    {
+      "time": 1680,
+      "quality": 92.1
+    },
+    {
+      "time": 1695,
+      "quality": 92.1
+    },
+    {
+      "time": 1710,
+      "quality": 92.1
+    },
+    {
+      "time": 1725,
+      "quality": 92.6
+    },
+    {
+      "time": 1740,
+      "quality": 92.6
+    },
+    {
+      "time": 1755,
+      "quality": 92.6
+    },
+    {
+      "time": 1770,
+      "quality": 92.6
+    },
+    {
+      "time": 1785,
+      "quality": 92.6
+    },
+    {
+      "time": 1800,
+      "quality": 92.1
+    },
+    {
+      "time": 1815,
+      "quality": 92.6
+    },
+    {
+      "time": 1830,
+      "quality": 93.2
+    },
+    {
+      "time": 1845,
+      "quality": 92.6
+    },
+    {
+      "time": 1860,
+      "quality": 92.6
+    },
+    {
+      "time": 1875,
+      "quality": 92.6
+    },
+    {
+      "time": 1890,
+      "quality": 92.6
+    },
+    {
+      "time": 1905,
+      "quality": 93.2
+    },
+    {
+      "time": 1920,
+      "quality": 93.2
+    },
+    {
+      "time": 1935,
+      "quality": 93.2
+    },
+    {
+      "time": 1950,
+      "quality": 93.2
+    },
+    {
+      "time": 1965,
+      "quality": 93.2
+    },
+    {
+      "time": 1980,
+      "quality": 92.6
+    },
+    {
+      "time": 1995,
+      "quality": 92.6
+    },
+    {
+      "time": 2010,
+      "quality": 92.6
+    },
+    {
+      "time": 2025,
+      "quality": 92.6
+    },
+    {
+      "time": 2040,
+      "quality": 93.2
+    },
+    {
+      "time": 2055,
+      "quality": 93.2
+    },
+    {
+      "time": 2070,
+      "quality": 93.2
+    },
+    {
+      "time": 2085,
+      "quality": 93.2
+    },
+    {
+      "time": 2100,
+      "quality": 93.2
+    },
+    {
+      "time": 2115,
+      "quality": 92.6
+    },
+    {
+      "time": 2130,
+      "quality": 92.6
+    },
+    {
+      "time": 2145,
+      "quality": 92.6
+    },
+    {
+      "time": 2160,
+      "quality": 92.6
+    },
+    {
+      "time": 2175,
+      "quality": 92.6
+    },
+    {
+      "time": 2190,
+      "quality": 92.6
+    },
+    {
+      "time": 2205,
+      "quality": 92.6
+    },
+    {
+      "time": 2220,
+      "quality": 92.1
+    },
+    {
+      "time": 2235,
+      "quality": 92.1
+    },
+    {
+      "time": 2250,
+      "quality": 92.1
+    },
+    {
+      "time": 2265,
+      "quality": 92.6
+    },
+    {
+      "time": 2280,
+      "quality": 93.2
+    },
+    {
+      "time": 2295,
+      "quality": 93.2
+    },
+    {
+      "time": 2310,
+      "quality": 92.6
+    },
+    {
+      "time": 2325,
+      "quality": 92.6
+    },
+    {
+      "time": 2340,
+      "quality": 92.6
+    },
+    {
+      "time": 2355,
+      "quality": 92.1
+    },
+    {
+      "time": 2370,
+      "quality": 92.1
+    },
+    {
+      "time": 2385,
+      "quality": 92.1
+    },
+    {
+      "time": 2400,
+      "quality": 92.1
+    },
+    {
+      "time": 2401,
+      "quality": 92.1
+    }
+  ],
+  "actions": [
+    {
+      "time": 2400,
+      "description": "Seed 42 scenario initialized; 15-minute warm-up recorded"
+    }
+  ]
+}

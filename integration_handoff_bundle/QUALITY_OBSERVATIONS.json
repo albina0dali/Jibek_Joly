@@ -1,0 +1,98 @@
+{
+  "default": {
+    "time": 2401,
+    "active_count": 16,
+    "moving_count": 6,
+    "quality": {
+      "value": 92.1,
+      "category": "NORMAL",
+      "components": [
+        {
+          "name": "schedule",
+          "score": 100,
+          "weight": 30,
+          "contribution": 30,
+          "reason": "Priority-weighted delay 0.0 min"
+        },
+        {
+          "name": "capacity",
+          "score": 85.4,
+          "weight": 20,
+          "contribution": 17.07,
+          "reason": "6/16 services moving; target utilization 70%"
+        },
+        {
+          "name": "energy",
+          "score": 75,
+          "weight": 20,
+          "contribution": 15,
+          "reason": "Mean advisory energy saving 0.0% over full-power baseline"
+        },
+        {
+          "name": "conflict",
+          "score": 100,
+          "weight": 20,
+          "contribution": 20,
+          "reason": "0 unresolved resource conflicts"
+        },
+        {
+          "name": "arrival",
+          "score": 100,
+          "weight": 10,
+          "contribution": 10,
+          "reason": "Mean projected arrival deviation 0.0 min"
+        }
+      ],
+      "factors": [],
+      "formula": "Q = Σ(component score × weight / 100)"
+    }
+  },
+  "after_dispatch_apply": {
+    "value": 92.1,
+    "category": "NORMAL",
+    "components": [
+      {
+        "name": "schedule",
+        "score": 100,
+        "weight": 30,
+        "contribution": 30,
+        "reason": "Priority-weighted delay 0.0 min"
+      },
+      {
+        "name": "capacity",
+        "score": 85.4,
+        "weight": 20,
+        "contribution": 17.07,
+        "reason": "6/16 services moving; target utilization 70%"
+      },
+      {
+        "name": "energy",
+        "score": 75,
+        "weight": 20,
+        "contribution": 15,
+        "reason": "Mean advisory energy saving 0.0% over full-power baseline"
+      },
+      {
+        "name": "conflict",
+        "score": 100,
+        "weight": 20,
+        "contribution": 20,
+        "reason": "0 unresolved resource conflicts"
+      },
+      {
+        "name": "arrival",
+        "score": 100,
+        "weight": 10,
+        "contribution": 10,
+        "reason": "Mean projected arrival deviation 0.0 min"
+      }
+    ],
+    "factors": [
+      {
+        "label": "P104 · delay 10",
+        "impact": 12
+      }
+    ],
+    "formula": "Q = Σ(component score × weight / 100)"
+  }
+}

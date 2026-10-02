@@ -1,0 +1,145 @@
+[
+  {
+    "id": "team-station-0",
+    "display_name": "Көкшетау",
+    "aliases": [],
+    "source_ids": {
+      "team": "0",
+      "extension": "team-station-0"
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": -80,
+      "z": -5
+    },
+    "corridor_distance_km": 0,
+    "status": "shared"
+  },
+  {
+    "id": "team-station-1",
+    "display_name": "Бурабай",
+    "aliases": [],
+    "source_ids": {
+      "team": "1",
+      "extension": "team-station-1"
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": -60,
+      "z": 4
+    },
+    "corridor_distance_km": 18,
+    "status": "shared"
+  },
+  {
+    "id": "team-station-2",
+    "display_name": "Ақкөл",
+    "aliases": [],
+    "source_ids": {
+      "team": "2",
+      "extension": null
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": -40,
+      "z": -2
+    },
+    "status": "team-only"
+  },
+  {
+    "id": "team-station-3",
+    "display_name": "Астана",
+    "aliases": [],
+    "source_ids": {
+      "team": "3",
+      "extension": "team-station-3"
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": -19,
+      "z": 8
+    },
+    "corridor_distance_km": 43,
+    "status": "shared"
+  },
+  {
+    "id": "team-station-4",
+    "display_name": "Қарағанды",
+    "aliases": [],
+    "source_ids": {
+      "team": "4",
+      "extension": "team-station-4"
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": 4,
+      "z": 2
+    },
+    "corridor_distance_km": 61,
+    "status": "shared"
+  },
+  {
+    "id": "team-station-5",
+    "display_name": "Мойынты",
+    "aliases": [],
+    "source_ids": {
+      "team": "5",
+      "extension": "team-station-5"
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": 25,
+      "z": -8
+    },
+    "corridor_distance_km": 89,
+    "status": "shared"
+  },
+  {
+    "id": "team-station-6",
+    "display_name": "Шу",
+    "aliases": [],
+    "source_ids": {
+      "team": "6",
+      "extension": "team-station-6"
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": 47,
+      "z": -3
+    },
+    "corridor_distance_km": 112,
+    "status": "shared"
+  },
+  {
+    "id": "team-station-7",
+    "display_name": "Алматы-1",
+    "aliases": [],
+    "source_ids": {
+      "team": "7",
+      "extension": "team-station-7"
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": 67,
+      "z": 7
+    },
+    "corridor_distance_km": 138,
+    "status": "shared"
+  },
+  {
+    "id": "team-station-8",
+    "display_name": "Алматы-2",
+    "aliases": [],
+    "source_ids": {
+      "team": "8",
+      "extension": "team-station-8"
+    },
+    "coordinates": null,
+    "model_position": {
+      "x": 85,
+      "z": 0
+    },
+    "corridor_distance_km": 164,
+    "status": "shared"
+  }
+]

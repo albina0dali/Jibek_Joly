@@ -1,0 +1,6 @@
+[
+ {"input":{"weightedDelaySeconds":0,"averageDelaySeconds":0,"utilization":0.49,"conflicts":0,"energySavingsPercent":20},"expected":92.3},
+ {"input":{"weightedDelaySeconds":481,"averageDelaySeconds":400,"utilization":0.25,"conflicts":3,"energySavingsPercent":20},"expected":75.9},
+ {"input":{"weightedDelaySeconds":10000,"averageDelaySeconds":10000,"utilization":0,"conflicts":20,"energySavingsPercent":-20},"expected":19.7},
+ {"input":{"weightedDelaySeconds":0,"averageDelaySeconds":0,"utilization":0.7,"conflicts":0,"energySavingsPercent":5},"expected":94.1}
+]

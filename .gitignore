@@ -6,3 +6,8 @@ server/assets.generated.json
 web/vendor/report.bundle.js
 
 .jol-local/
+__pycache__/
+*.sqlite
+.pytest_cache/
+web/vendor/extension.bundle.js
+test-results/

@@ -1,0 +1,58 @@
+[
+  {
+    "block_id": "B01",
+    "speed_limit_kmh": 120
+  },
+  {
+    "block_id": "B02",
+    "speed_limit_kmh": 120
+  },
+  {
+    "block_id": "B03",
+    "speed_limit_kmh": 100
+  },
+  {
+    "block_id": "B04",
+    "speed_limit_kmh": 100
+  },
+  {
+    "block_id": "B05",
+    "speed_limit_kmh": 130
+  },
+  {
+    "block_id": "B06",
+    "speed_limit_kmh": 130
+  },
+  {
+    "block_id": "B07",
+    "speed_limit_kmh": 90
+  },
+  {
+    "block_id": "B08",
+    "speed_limit_kmh": 90
+  },
+  {
+    "block_id": "B09",
+    "speed_limit_kmh": 110
+  },
+  {
+    "block_id": "B10",
+    "speed_limit_kmh": 110
+  },
+  {
+    "block_id": "B11",
+    "speed_limit_kmh": 100
+  },
+  {
+    "block_id": "B12",
+    "speed_limit_kmh": 100
+  },
+  {
+    "block_id": "B13",
+    "speed_limit_kmh": 120
+  },
+  {
+    "block_id": "B14",
+    "speed_limit_kmh": 120
+  }
+]

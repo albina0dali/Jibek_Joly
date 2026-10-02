@@ -1,0 +1,158 @@
+{
+  "project": "Jibek Joly / personal separate project",
+  "scope": [
+    "movement-plan",
+    "history-reports",
+    "wagons-consists"
+  ],
+  "excluded_pages": [
+    "overview",
+    "traffic",
+    "incidents",
+    "advisory",
+    "analytics",
+    "locomotives",
+    "maintenance",
+    "settings"
+  ],
+  "pages": [
+    {
+      "id": "movement-plan",
+      "title": "План движения",
+      "route": "/dispatch",
+      "source_entry": "source/movement_plan/Dispatch.tsx",
+      "spec": "page_specs/movement_plan.md",
+      "data_files": [
+        "data/stations.json",
+        "data/blocks.json",
+        "data/trains.json",
+        "data/schedule.json",
+        "data/signals.json",
+        "data/metadata.json"
+      ],
+      "dependencies": [
+        "source/shared_required_only/frontend/src",
+        "source/shared_required_only/backend/app",
+        "OR-Tools CP-SAT"
+      ],
+      "required_features": [
+        "six type/status filters",
+        "three time ranges",
+        "pan/zoom",
+        "baseline/actual/proposed diagram",
+        "conflict tooltips",
+        "train inspector/drawer",
+        "generate/preview/apply verified alternatives",
+        "stale/occupied validation"
+      ],
+      "mock_only": false
+    },
+    {
+      "id": "history-reports",
+      "title": "История и отчеты",
+      "route": "/history",
+      "source_entry": "source/history_reports/History.tsx",
+      "spec": "page_specs/history_reports.md",
+      "data_files": [
+        "data/stations.json",
+        "data/blocks.json",
+        "data/trains.json",
+        "data/schedule.json",
+        "data/signals.json",
+        "data/metadata.json"
+      ],
+      "dependencies": [
+        "source/shared_required_only/frontend/src",
+        "source/shared_required_only/backend/app",
+        "reportlab",
+        "runtimeSQLiteHistory"
+      ],
+      "required_features": [
+        "last5/10/15min",
+        "snapshot scrubber",
+        "15sec/500ms replay",
+        "historical topology/diagram/drawer",
+        "storedQI",
+        "globalactionlog",
+        "liveCSV/PDFexportwhileinreplay"
+      ],
+      "mock_only": false
+    },
+    {
+      "id": "wagons-consists",
+      "title": "Вагоны и составы",
+      "route": "/yard",
+      "source_entry": "source/wagons_consists/YardBrain.tsx",
+      "spec": "page_specs/wagons_consists.md",
+      "data_files": [
+        "data/resource_scenarios.json",
+        "data/stations_personal.json"
+      ],
+      "dependencies": [
+        "source/shared_required_only/frontend/src",
+        "source/shared_required_only/backend/app",
+        "OR-Tools CP-SAT"
+      ],
+      "required_features": [
+        "120wagoninventory",
+        "4tracks/2shunters",
+        "CP-SAT and feasiblebatching",
+        "computedbeforeaftermetrics",
+        "consisttable/inspector",
+        "projectedtimescrubber",
+        "selectrow/SVG/Enter/wagon",
+        "versionedresourceapplywithouttrafficmutation"
+      ],
+      "mock_only": false
+    }
+  ],
+  "stations": {
+    "count": 8,
+    "file": "data/stations_personal.json",
+    "original_file": "data/stations.json",
+    "renamed": false,
+    "coordinates_available": false
+  },
+  "quality_index": {
+    "spec": "QUALITY_INDEX_SPEC.md",
+    "source": "source/shared_required_only/backend/app/quality.py",
+    "observations": "QUALITY_OBSERVATIONS.json"
+  },
+  "data_inventory": "data/DATA_INVENTORY.json",
+  "api_contract": "API_CONTRACT.md",
+  "source_provenance": [
+    "source/FRONTEND_PROVENANCE.json",
+    "source/BACKEND_PROVENANCE.json"
+  ],
+  "frontend_entry": "source/shared_required_only/frontend/src/main.tsx",
+  "backend_entry": "source/shared_required_only/backend/main.py",
+  "reference_screenshots": "reference_screenshots",
+  "design_policy": {
+    "must_preserve": [
+      "content",
+      "features",
+      "table schemas",
+      "charts and axes/layers",
+      "actions",
+      "dataset IDs/units",
+      "calculations",
+      "layout hierarchy",
+      "user flow",
+      "validation/error semantics"
+    ],
+    "replaceable": [
+      "colours",
+      "backgrounds",
+      "borders",
+      "fonts",
+      "radius",
+      "shadows",
+      "navigation appearance",
+      "common cards"
+    ]
+  },
+  "dataset_provenance": "SIMULATED / DERIVED",
+  "scenario_epoch": "2026-10-01T08:00:00+05:00",
+  "audit_date": "2026-10-02",
+  "audit_timezone": "Asia/Qyzylorda"
+}

@@ -1,0 +1,208 @@
+{
+  "station_count": 8,
+  "route": "Көкшетау — Алматы-2",
+  "stations": [
+    {
+      "id": "team-station-0",
+      "name": "Көкшетау",
+      "distance_km": 0,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "team-station-0",
+      "display_name": "Көкшетау",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Көкшетау — Алматы-2 (fictional corridor)",
+      "order_in_corridor": 1,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports"
+      ]
+    },
+    {
+      "id": "team-station-1",
+      "name": "Бурабай",
+      "distance_km": 18,
+      "platform_count": 3,
+      "siding_available": true,
+      "original_id": "team-station-1",
+      "display_name": "Бурабай",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Көкшетау — Алматы-2 (fictional corridor)",
+      "order_in_corridor": 2,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports"
+      ]
+    },
+    {
+      "id": "team-station-3",
+      "name": "Астана",
+      "distance_km": 43,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "team-station-3",
+      "display_name": "Астана",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Көкшетау — Алматы-2 (fictional corridor)",
+      "order_in_corridor": 3,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.wagons[].destination"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    },
+    {
+      "id": "team-station-4",
+      "name": "Қарағанды",
+      "distance_km": 61,
+      "platform_count": 3,
+      "siding_available": true,
+      "original_id": "team-station-4",
+      "display_name": "Қарағанды",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Көкшетау — Алматы-2 (fictional corridor)",
+      "order_in_corridor": 4,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.wagons[].destination"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    },
+    {
+      "id": "team-station-5",
+      "name": "Мойынты",
+      "distance_km": 89,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "team-station-5",
+      "display_name": "Мойынты",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Көкшетау — Алматы-2 (fictional corridor)",
+      "order_in_corridor": 5,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.wagons[].destination"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    },
+    {
+      "id": "team-station-6",
+      "name": "Шу",
+      "distance_km": 112,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "team-station-6",
+      "display_name": "Шу",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Көкшетау — Алматы-2 (fictional corridor)",
+      "order_in_corridor": 6,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports"
+      ]
+    },
+    {
+      "id": "team-station-7",
+      "name": "Алматы-1",
+      "distance_km": 138,
+      "platform_count": 3,
+      "siding_available": true,
+      "original_id": "team-station-7",
+      "display_name": "Алматы-1",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Көкшетау — Алматы-2 (fictional corridor)",
+      "order_in_corridor": 7,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.station_id"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    },
+    {
+      "id": "team-station-8",
+      "name": "Алматы-2",
+      "distance_km": 164,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "team-station-8",
+      "display_name": "Алматы-2",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Көкшетау — Алматы-2 (fictional corridor)",
+      "order_in_corridor": 8,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.wagons[].destination"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    }
+  ]
+}

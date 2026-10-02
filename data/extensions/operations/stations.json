@@ -1,0 +1,58 @@
+[
+  {
+    "id": "team-station-0",
+    "name": "Көкшетау",
+    "distance_km": 0,
+    "platform_count": 2,
+    "siding_available": false
+  },
+  {
+    "id": "team-station-1",
+    "name": "Бурабай",
+    "distance_km": 18,
+    "platform_count": 3,
+    "siding_available": true
+  },
+  {
+    "id": "team-station-3",
+    "name": "Астана",
+    "distance_km": 43,
+    "platform_count": 2,
+    "siding_available": false
+  },
+  {
+    "id": "team-station-4",
+    "name": "Қарағанды",
+    "distance_km": 61,
+    "platform_count": 3,
+    "siding_available": true
+  },
+  {
+    "id": "team-station-5",
+    "name": "Мойынты",
+    "distance_km": 89,
+    "platform_count": 2,
+    "siding_available": false
+  },
+  {
+    "id": "team-station-6",
+    "name": "Шу",
+    "distance_km": 112,
+    "platform_count": 2,
+    "siding_available": false
+  },
+  {
+    "id": "team-station-7",
+    "name": "Алматы-1",
+    "distance_km": 138,
+    "platform_count": 3,
+    "siding_available": true
+  },
+  {
+    "id": "team-station-8",
+    "name": "Алматы-2",
+    "distance_km": 164,
+    "platform_count": 2,
+    "siding_available": false
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "E101",
+    "service_number": "E-701",
+    "type": "express",
+    "priority": 3,
+    "origin": "S1",
+    "destination": "S8",
+    "length_m": 183,
+    "max_speed_kmh": 140,
+    "scheduled_departure": 7,
+    "scheduled_arrival": 6897,
+    "planned_stops": [
+      "S2",
+      "S4",
+      "S7"
+    ],
+    "direction": 1
+  },
+  {
+    "id": "P102",
+    "service_number": "P-702",
+    "type": "passenger",
+    "priority": 2,
+    "origin": "S8",
+    "destination": "S1",
+    "length_m": 274,
+    "max_speed_kmh": 120,
+    "scheduled_departure": 158,
+    "scheduled_arrival": 7871,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": -1
+  },
+  {
+    "id": "F103",
+    "service_number": "F-703",
+    "type": "freight",
+    "priority": 1,
+    "origin": "S1",
+    "destination": "S8",
+    "length_m": 496,
+    "max_speed_kmh": 75,
+    "scheduled_departure": 385,
+    "scheduled_arrival": 11412,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": 1
+  },
+  {
+    "id": "P104",
+    "service_number": "P-704",
+    "type": "passenger",
+    "priority": 2,
+    "origin": "S8",
+    "destination": "S1",
+    "length_m": 205,
+    "max_speed_kmh": 120,
+    "scheduled_departure": 677,
+    "scheduled_arrival": 9433,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": -1
+  },
+  {
+    "id": "F105",
+    "service_number": "F-705",
+    "type": "freight",
+    "priority": 1,
+    "origin": "S1",
+    "destination": "S8",
+    "length_m": 483,
+    "max_speed_kmh": 75,
+    "scheduled_departure": 953,
+    "scheduled_arrival": 12950,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": 1
+  },
+  {
+    "id": "E106",
+    "service_number": "E-706",
+    "type": "express",
+    "priority": 3,
+    "origin": "S8",
+    "destination": "S1",
+    "length_m": 193,
+    "max_speed_kmh": 140,
+    "scheduled_departure": 1196,
+    "scheduled_arrival": 10858,
+    "planned_stops": [
+      "S2",
+      "S4",
+      "S7"
+    ],
+    "direction": -1
+  },
+  {
+    "id": "P107",
+    "service_number": "P-707",
+    "type": "passenger",
+    "priority": 2,
+    "origin": "S1",
+    "destination": "S8",
+    "length_m": 257,
+    "max_speed_kmh": 120,
+    "scheduled_departure": 1521,
+    "scheduled_arrival": 13469,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": 1
+  },
+  {
+    "id": "F108",
+    "service_number": "F-708",
+    "type": "freight",
+    "priority": 1,
+    "origin": "S8",
+    "destination": "S1",
+    "length_m": 520,
+    "max_speed_kmh": 85,
+    "scheduled_departure": 1715,
+    "scheduled_arrival": 14627,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": -1
+  },
+  {
+    "id": "P109",
+    "service_number": "P-709",
+    "type": "passenger",
+    "priority": 2,
+    "origin": "S1",
+    "destination": "S8",
+    "length_m": 253,
+    "max_speed_kmh": 120,
+    "scheduled_departure": 1899,
+    "scheduled_arrival": 14471,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": 1
+  },
+  {
+    "id": "F110",
+    "service_number": "F-710",
+    "type": "freight",
+    "priority": 1,
+    "origin": "S8",
+    "destination": "S1",
+    "length_m": 520,
+    "max_speed_kmh": 75,
+    "scheduled_departure": 2423,
+    "scheduled_arrival": 16632,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": -1
+  },
+  {
+    "id": "E111",
+    "service_number": "E-711",
+    "type": "express",
+    "priority": 3,
+    "origin": "S1",
+    "destination": "S8",
+    "length_m": 200,
+    "max_speed_kmh": 140,
+    "scheduled_departure": 2277,
+    "scheduled_arrival": 15868,
+    "planned_stops": [
+      "S2",
+      "S4",
+      "S7"
+    ],
+    "direction": 1
+  },
+  {
+    "id": "P112",
+    "service_number": "P-712",
+    "type": "passenger",
+    "priority": 2,
+    "origin": "S8",
+    "destination": "S1",
+    "length_m": 269,
+    "max_speed_kmh": 120,
+    "scheduled_departure": 3217,
+    "scheduled_arrival": 17010,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": -1
+  },
+  {
+    "id": "F113",
+    "service_number": "F-713",
+    "type": "freight",
+    "priority": 1,
+    "origin": "S1",
+    "destination": "S8",
+    "length_m": 563,
+    "max_speed_kmh": 80,
+    "scheduled_departure": 2655,
+    "scheduled_arrival": 20039,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": 1
+  },
+  {
+    "id": "P114",
+    "service_number": "P-714",
+    "type": "passenger",
+    "priority": 2,
+    "origin": "S8",
+    "destination": "S1",
+    "length_m": 267,
+    "max_speed_kmh": 120,
+    "scheduled_departure": 3736,
+    "scheduled_arrival": 18327,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": -1
+  },
+  {
+    "id": "F115",
+    "service_number": "F-715",
+    "type": "freight",
+    "priority": 1,
+    "origin": "S1",
+    "destination": "S8",
+    "length_m": 641,
+    "max_speed_kmh": 80,
+    "scheduled_departure": 3191,
+    "scheduled_arrival": 21594,
+    "planned_stops": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "direction": 1
+  },
+  {
+    "id": "E116",
+    "service_number": "E-716",
+    "type": "express",
+    "priority": 3,
+    "origin": "S8",
+    "destination": "S1",
+    "length_m": 207,
+    "max_speed_kmh": 140,
+    "scheduled_departure": 4255,
+    "scheduled_arrival": 19754,
+    "planned_stops": [
+      "S2",
+      "S4",
+      "S7"
+    ],
+    "direction": -1
+  }
+]

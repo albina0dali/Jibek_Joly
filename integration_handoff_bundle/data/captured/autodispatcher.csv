@@ -1,0 +1,29 @@
+category,id,status_or_score,delay_seconds_or_weight,detail
+train,E101,moving,0,60.754 km; 110.6 km/h
+train,P102,stopped,0,112.0 km; 0 km/h
+train,F103,moving,0,34.2 km; 63.7 km/h
+train,P104,moving,0,124.056 km; 84.9 km/h
+train,F105,moving,0,20.638 km; 63.7 km/h
+train,E106,stopped,0,138.0 km; 0 km/h
+train,P107,stopped,0,18.0 km; 0 km/h
+train,F108,moving,0,150.238 km; 72.2 km/h
+train,P109,stopped,0,9.0 km; 0 km/h
+train,F110,scheduled,0,164 km; 0 km/h
+train,E111,moving,0,3.509 km; 101.9 km/h
+train,P112,scheduled,0,164 km; 0 km/h
+train,F113,scheduled,0,0 km; 0 km/h
+train,P114,scheduled,0,164 km; 0 km/h
+train,F115,scheduled,0,0 km; 0 km/h
+train,E116,scheduled,0,164 km; 0 km/h
+incident,I001,active,600,delay_10 at P104
+conflict,opposing_direction:B04:F115:P104:8206,resolved,529,F115 and P104 have incompatible occupation of B04.
+conflict,opposing_direction:B07:F105:P104:6830,resolved,540,P104 and F105 have incompatible occupation of B07.
+conflict,opposing_direction:B08:F103:P104:6051,resolved,115,P104 and F103 have incompatible occupation of B08.
+conflict,exclusive_occupancy:B09:E106:P104:4950,resolved,346,E106 and P104 have incompatible occupation of B09.
+conflict,exclusive_occupancy:B09:F108:P104:5366,resolved,30,P104 and F108 have incompatible occupation of B09.
+conflict,exclusive_occupancy:B10:E106:P104:3636,resolved,355,E106 and P104 have incompatible occupation of B10.
+quality,schedule,100.0,30,30.0 points; Priority-weighted delay 0.0 min
+quality,capacity,85.4,20,17.07 points; 6/16 services moving; target utilization 70%
+quality,energy,75,20,15.0 points; Mean advisory energy saving 0.0% over full-power baseline
+quality,conflict,100,20,20.0 points; 0 unresolved resource conflicts
+quality,arrival,100.0,10,10.0 points; Mean projected arrival deviation 0.0 min

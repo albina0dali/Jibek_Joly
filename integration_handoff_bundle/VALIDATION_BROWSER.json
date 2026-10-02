@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "original_frontend": "http://127.0.0.1:5173",
+  "isolated_backend": "http://127.0.0.1:8001",
+  "portable_frontend": "http://127.0.0.1:5175",
+  "pages": [
+    "/dispatch",
+    "/history",
+    "/yard"
+  ],
+  "screenshots": [
+    "history_reports_default.png",
+    "history_reports_replay.png",
+    "history_reports_snapshot_drawer.png",
+    "movement_plan_applied.png",
+    "movement_plan_default.png",
+    "movement_plan_filtered_zoom.png",
+    "movement_plan_recommendation_preview.png",
+    "movement_plan_train_drawer.png",
+    "wagons_consists_applied.png",
+    "wagons_consists_before_tab.png",
+    "wagons_consists_default.png",
+    "wagons_consists_optimized.png",
+    "wagons_consists_selection_timeline.png"
+  ],
+  "browser_errors": [],
+  "checks": [
+    "filters/range/pan/zoom",
+    "train drawer",
+    "generate/preview/apply dispatch plan",
+    "history replay/pause/return live",
+    "historical train drawer",
+    "actual CSV/PDF downloads while in replay",
+    "yard calculate/before-after/selection/time scrubber/apply",
+    "portable exactly three navigation links"
+  ]
+}

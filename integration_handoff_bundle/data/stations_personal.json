@@ -1,0 +1,208 @@
+{
+  "station_count": 8,
+  "route": "Arqa — Dala",
+  "stations": [
+    {
+      "id": "S1",
+      "name": "Arqa Junction",
+      "distance_km": 0.0,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "S1",
+      "display_name": "Arqa Junction",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Arqa — Dala (fictional corridor)",
+      "order_in_corridor": 1,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Sarybel",
+      "distance_km": 18.0,
+      "platform_count": 3,
+      "siding_available": true,
+      "original_id": "S2",
+      "display_name": "Sarybel",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Arqa — Dala (fictional corridor)",
+      "order_in_corridor": 2,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "Kumyr",
+      "distance_km": 43.0,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "S3",
+      "display_name": "Kumyr",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Arqa — Dala (fictional corridor)",
+      "order_in_corridor": 3,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.wagons[].destination"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Terek",
+      "distance_km": 61.0,
+      "platform_count": 3,
+      "siding_available": true,
+      "original_id": "S4",
+      "display_name": "Terek",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Arqa — Dala (fictional corridor)",
+      "order_in_corridor": 4,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.wagons[].destination"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "Bastau",
+      "distance_km": 89.0,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "S5",
+      "display_name": "Bastau",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Arqa — Dala (fictional corridor)",
+      "order_in_corridor": 5,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.wagons[].destination"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    },
+    {
+      "id": "S6",
+      "name": "Zhalyn",
+      "distance_km": 112.0,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "S6",
+      "display_name": "Zhalyn",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Arqa — Dala (fictional corridor)",
+      "order_in_corridor": 6,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports"
+      ]
+    },
+    {
+      "id": "S7",
+      "name": "Aksai Yard",
+      "distance_km": 138.0,
+      "platform_count": 3,
+      "siding_available": true,
+      "original_id": "S7",
+      "display_name": "Aksai Yard",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Arqa — Dala (fictional corridor)",
+      "order_in_corridor": 7,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.station_id"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    },
+    {
+      "id": "S8",
+      "name": "Dala Terminal",
+      "distance_km": 164.0,
+      "platform_count": 2,
+      "siding_available": false,
+      "original_id": "S8",
+      "display_name": "Dala Terminal",
+      "coordinates": null,
+      "coordinate_note": "No latitude/longitude in original dataset; distance_km is corridor chainage, not coordinates",
+      "route": "Arqa — Dala (fictional corridor)",
+      "order_in_corridor": 8,
+      "used_in": [
+        "schedule.json",
+        "timetable.json",
+        "trains.json (origin/destination/planned_stops)",
+        "signals via blocks",
+        "history snapshot stations",
+        "yard.wagons[].destination"
+      ],
+      "page_dependencies": [
+        "movement-plan",
+        "history-reports",
+        "wagons-consists"
+      ]
+    }
+  ]
+}

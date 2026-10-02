@@ -1,0 +1,130 @@
+{
+  "passed": true,
+  "pages": 3,
+  "stations": 8,
+  "trains": 16,
+  "blocks": 14,
+  "checks": [
+    "manifest paths",
+    "all station/block/train/yard joins",
+    "original exact copies/declarations",
+    "authenticatedREST/WS",
+    "61warmup snapshots/nearest-earlier retrieval",
+    "independentyardvalidation/measuredmetrics",
+    "yardapplydoesnotmutatetraffic",
+    "yardactionlog",
+    "3dispatchalternatives/zero-conflictapply",
+    "stalerecommendationrejected",
+    "realCSV/PDF",
+    "resetstalesyardplan"
+  ],
+  "observations": {
+    "before_quality": {
+      "value": 92.1,
+      "category": "NORMAL",
+      "components": [
+        {
+          "name": "schedule",
+          "score": 100.0,
+          "weight": 30,
+          "contribution": 30.0,
+          "reason": "Priority-weighted delay 0.0 min"
+        },
+        {
+          "name": "capacity",
+          "score": 85.4,
+          "weight": 20,
+          "contribution": 17.07,
+          "reason": "6/16 services moving; target utilization 70%"
+        },
+        {
+          "name": "energy",
+          "score": 75,
+          "weight": 20,
+          "contribution": 15.0,
+          "reason": "Mean advisory energy saving 0.0% over full-power baseline"
+        },
+        {
+          "name": "conflict",
+          "score": 100,
+          "weight": 20,
+          "contribution": 20.0,
+          "reason": "0 unresolved resource conflicts"
+        },
+        {
+          "name": "arrival",
+          "score": 100.0,
+          "weight": 10,
+          "contribution": 10.0,
+          "reason": "Mean projected arrival deviation 0.0 min"
+        }
+      ],
+      "factors": [],
+      "formula": "Q = Σ(component score × weight / 100)"
+    },
+    "after_quality": {
+      "value": 92.1,
+      "category": "NORMAL",
+      "components": [
+        {
+          "name": "schedule",
+          "score": 100.0,
+          "weight": 30,
+          "contribution": 30.0,
+          "reason": "Priority-weighted delay 0.0 min"
+        },
+        {
+          "name": "capacity",
+          "score": 85.4,
+          "weight": 20,
+          "contribution": 17.07,
+          "reason": "6/16 services moving; target utilization 70%"
+        },
+        {
+          "name": "energy",
+          "score": 75,
+          "weight": 20,
+          "contribution": 15.0,
+          "reason": "Mean advisory energy saving 0.0% over full-power baseline"
+        },
+        {
+          "name": "conflict",
+          "score": 100,
+          "weight": 20,
+          "contribution": 20.0,
+          "reason": "0 unresolved resource conflicts"
+        },
+        {
+          "name": "arrival",
+          "score": 100.0,
+          "weight": 10,
+          "contribution": 10.0,
+          "reason": "Mean projected arrival deviation 0.0 min"
+        }
+      ],
+      "factors": [
+        {
+          "label": "P104 · delay 10",
+          "impact": 12
+        }
+      ],
+      "formula": "Q = Σ(component score × weight / 100)"
+    },
+    "yard_before": {
+      "train_count": 12,
+      "wagon_hours": 120.48,
+      "late_wagon_minutes": 997.0,
+      "wagon_count": 120,
+      "mean_fill_percent": 33.3
+    },
+    "yard_after": {
+      "train_count": 8,
+      "wagon_hours": 114.48,
+      "late_wagon_minutes": 692.0,
+      "wagon_count": 120,
+      "mean_fill_percent": 53.7
+    },
+    "csv_rows": 28,
+    "pdf_bytes": 4168
+  }
+}

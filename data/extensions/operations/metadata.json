@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "fictional": true,
+  "simulation_start": 2400,
+  "timezone": "Asia/Qyzylorda",
+  "epoch": "2026-10-01T08:00:00+05:00",
+  "network": "team-corridor",
+  "distance_semantics": "Synthetic operational corridor distance",
+  "corridor_distance_km": 164,
+  "station_mapping": {
+    "S1": "team-station-0",
+    "S2": "team-station-1",
+    "S3": "team-station-3",
+    "S4": "team-station-4",
+    "S5": "team-station-5",
+    "S6": "team-station-6",
+    "S7": "team-station-7",
+    "S8": "team-station-8"
+  }
+}

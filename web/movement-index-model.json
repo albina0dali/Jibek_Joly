@@ -1,0 +1,14 @@
+{
+  "version": "jol.movement-index.v1",
+  "weights": {"schedule": 30, "capacity": 20, "energy": 20, "conflict": 20, "arrival": 10},
+  "delay_divisor_seconds": 30,
+  "target_utilization": 0.7,
+  "utilization_penalty": 45,
+  "capacity_conflict_penalty": 2,
+  "energy_base": 70,
+  "energy_saving_coefficient": 0.05,
+  "conflict_penalty": 12,
+  "arrival_divisor_seconds": 40,
+  "normal_threshold": 80,
+  "attention_threshold": 60
+}

@@ -1,0 +1,343 @@
+{
+  "handoff": "Preserved unchanged; 112 checksums verified",
+  "files": [
+    {
+      "path": ".gitignore",
+      "status": "modified"
+    },
+    {
+      "path": "README.md",
+      "status": "modified"
+    },
+    {
+      "path": "data/extensions/operations/DATA_INVENTORY.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/blocks.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/incidents.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/metadata.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/resource_scenarios.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/schedule.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/signals.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/speed_limits.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/stations.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/stations_personal.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/timetable.json",
+      "status": "added"
+    },
+    {
+      "path": "data/extensions/operations/trains.json",
+      "status": "added"
+    },
+    {
+      "path": "docs/CASE_ACCEPTANCE_AUDIT.md",
+      "status": "added"
+    },
+    {
+      "path": "docs/FINAL_UI_UX_REVIEW.md",
+      "status": "added"
+    },
+    {
+      "path": "docs/INTEGRATION_FILES.json",
+      "status": "added"
+    },
+    {
+      "path": "docs/MOVEMENT_INDEX.md",
+      "status": "added"
+    },
+    {
+      "path": "docs/OPERATIONS_MAP.md",
+      "status": "added"
+    },
+    {
+      "path": "docs/STATION_MAPPING.md",
+      "status": "added"
+    },
+    {
+      "path": "docs/UNIFICATION_REVIEW.md",
+      "status": "added"
+    },
+    {
+      "path": "package-lock.json",
+      "status": "modified"
+    },
+    {
+      "path": "package.json",
+      "status": "modified"
+    },
+    {
+      "path": "scripts/build-station-registry.mjs",
+      "status": "added"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "status": "modified"
+    },
+    {
+      "path": "scripts/dev.mjs",
+      "status": "modified"
+    },
+    {
+      "path": "scripts/rebase-extension.mjs",
+      "status": "added"
+    },
+    {
+      "path": "scripts/start-extension.mjs",
+      "status": "added"
+    },
+    {
+      "path": "scripts/test-extension.mjs",
+      "status": "added"
+    },
+    {
+      "path": "server/extension-paths.js",
+      "status": "added"
+    },
+    {
+      "path": "server/extension-proxy.js",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/__init__.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/api.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/ato.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/conflicts.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/generate_demo_data.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/history.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/ingestion.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/models.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/quality.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/reports.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/resources.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/scheduler.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/simulator.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/app/yard.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/main.py",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/requirements.lock.txt",
+      "status": "added"
+    },
+    {
+      "path": "server/extension/requirements.txt",
+      "status": "added"
+    },
+    {
+      "path": "server/index.js",
+      "status": "modified"
+    },
+    {
+      "path": "tests/extension-adapters.test.mjs",
+      "status": "added"
+    },
+    {
+      "path": "tests/extension-browser.mjs",
+      "status": "added"
+    },
+    {
+      "path": "tests/movement-index-vectors.json",
+      "status": "added"
+    },
+    {
+      "path": "tests/operations-map.mjs",
+      "status": "added"
+    },
+    {
+      "path": "tests/operations-ui-review.mjs",
+      "status": "added"
+    },
+    {
+      "path": "tests/server.mjs",
+      "status": "modified"
+    },
+    {
+      "path": "tests/test_extension.py",
+      "status": "added"
+    },
+    {
+      "path": "web/app.js",
+      "status": "modified"
+    },
+    {
+      "path": "web/corridor-engine.js",
+      "status": "modified"
+    },
+    {
+      "path": "web/dispatcher-scheme.js",
+      "status": "added"
+    },
+    {
+      "path": "web/extension.css",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/Dispatch.tsx",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/History.tsx",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/YardBrain.tsx",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/host.tsx",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/resource-types.ts",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/shared/PageTitle.tsx",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/shared/components.tsx",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/shared/i18n.tsx",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/shared/locales/catalog.json",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/shared/locales/resources.json",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/shared/page-contract.ts",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/shared/services.ts",
+      "status": "added"
+    },
+    {
+      "path": "web/extension/shared/types.ts",
+      "status": "added"
+    },
+    {
+      "path": "web/index.html",
+      "status": "modified"
+    },
+    {
+      "path": "web/locales/kk.json",
+      "status": "modified"
+    },
+    {
+      "path": "web/locales/ru.json",
+      "status": "modified"
+    },
+    {
+      "path": "web/movement-index-model.json",
+      "status": "added"
+    },
+    {
+      "path": "web/movement-index.js",
+      "status": "added"
+    },
+    {
+      "path": "web/operations-ui.css",
+      "status": "added"
+    },
+    {
+      "path": "web/planning.js",
+      "status": "modified"
+    },
+    {
+      "path": "web/quality.js",
+      "status": "modified"
+    },
+    {
+      "path": "web/station-registry.json",
+      "status": "added"
+    },
+    {
+      "path": "web/stations.js",
+      "status": "added"
+    },
+    {
+      "path": "web/style.css",
+      "status": "modified"
+    }
+  ],
+  "unification": "9 canonical stations; 8-station operational subset; shared Movement Index model; see docs/UNIFICATION_REVIEW.md",
+  "ui_review": "Operations center UI; acceptance gaps and evidence: docs/FINAL_UI_UX_REVIEW.md; no changes to protected dataset/model/state files"
+}

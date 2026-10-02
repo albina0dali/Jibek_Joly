@@ -1,0 +1,786 @@
+[
+  {
+    "train_id": "E101",
+    "station_id": "S2",
+    "scheduled_arrival": 643,
+    "scheduled_departure": 740,
+    "minimum_dwell_seconds": 97
+  },
+  {
+    "train_id": "E101",
+    "station_id": "S3",
+    "scheduled_arrival": 1798,
+    "scheduled_departure": 1823,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E101",
+    "station_id": "S4",
+    "scheduled_arrival": 2409,
+    "scheduled_departure": 2504,
+    "minimum_dwell_seconds": 95
+  },
+  {
+    "train_id": "E101",
+    "station_id": "S5",
+    "scheduled_arrival": 3822,
+    "scheduled_departure": 3847,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E101",
+    "station_id": "S6",
+    "scheduled_arrival": 4733,
+    "scheduled_departure": 4758,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E101",
+    "station_id": "S7",
+    "scheduled_arrival": 5860,
+    "scheduled_departure": 5954,
+    "minimum_dwell_seconds": 94
+  },
+  {
+    "train_id": "E101",
+    "station_id": "S8",
+    "scheduled_arrival": 6872,
+    "scheduled_departure": 6897,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "P102",
+    "station_id": "S7",
+    "scheduled_arrival": 1076,
+    "scheduled_departure": 1199,
+    "minimum_dwell_seconds": 123
+  },
+  {
+    "train_id": "P102",
+    "station_id": "S6",
+    "scheduled_arrival": 2301,
+    "scheduled_departure": 2428,
+    "minimum_dwell_seconds": 127
+  },
+  {
+    "train_id": "P102",
+    "station_id": "S5",
+    "scheduled_arrival": 3314,
+    "scheduled_departure": 3451,
+    "minimum_dwell_seconds": 137
+  },
+  {
+    "train_id": "P102",
+    "station_id": "S4",
+    "scheduled_arrival": 5200,
+    "scheduled_departure": 5314,
+    "minimum_dwell_seconds": 114
+  },
+  {
+    "train_id": "P102",
+    "station_id": "S3",
+    "scheduled_arrival": 5950,
+    "scheduled_departure": 6035,
+    "minimum_dwell_seconds": 85
+  },
+  {
+    "train_id": "P102",
+    "station_id": "S2",
+    "scheduled_arrival": 7093,
+    "scheduled_departure": 7210,
+    "minimum_dwell_seconds": 117
+  },
+  {
+    "train_id": "P102",
+    "station_id": "S1",
+    "scheduled_arrival": 7846,
+    "scheduled_departure": 7871,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "F103",
+    "station_id": "S2",
+    "scheduled_arrival": 1401,
+    "scheduled_departure": 1486,
+    "minimum_dwell_seconds": 85
+  },
+  {
+    "train_id": "F103",
+    "station_id": "S3",
+    "scheduled_arrival": 2898,
+    "scheduled_departure": 2991,
+    "minimum_dwell_seconds": 93
+  },
+  {
+    "train_id": "F103",
+    "station_id": "S4",
+    "scheduled_arrival": 4007,
+    "scheduled_departure": 4101,
+    "minimum_dwell_seconds": 94
+  },
+  {
+    "train_id": "F103",
+    "station_id": "S5",
+    "scheduled_arrival": 6842,
+    "scheduled_departure": 6954,
+    "minimum_dwell_seconds": 112
+  },
+  {
+    "train_id": "F103",
+    "station_id": "S6",
+    "scheduled_arrival": 8252,
+    "scheduled_departure": 8370,
+    "minimum_dwell_seconds": 118
+  },
+  {
+    "train_id": "F103",
+    "station_id": "S7",
+    "scheduled_arrival": 9838,
+    "scheduled_departure": 9919,
+    "minimum_dwell_seconds": 81
+  },
+  {
+    "train_id": "F103",
+    "station_id": "S8",
+    "scheduled_arrival": 11387,
+    "scheduled_departure": 11412,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "P104",
+    "station_id": "S7",
+    "scheduled_arrival": 1595,
+    "scheduled_departure": 1716,
+    "minimum_dwell_seconds": 121
+  },
+  {
+    "train_id": "P104",
+    "station_id": "S6",
+    "scheduled_arrival": 2912,
+    "scheduled_departure": 3036,
+    "minimum_dwell_seconds": 124
+  },
+  {
+    "train_id": "P104",
+    "station_id": "S5",
+    "scheduled_arrival": 4793,
+    "scheduled_departure": 4907,
+    "minimum_dwell_seconds": 114
+  },
+  {
+    "train_id": "P104",
+    "station_id": "S4",
+    "scheduled_arrival": 6770,
+    "scheduled_departure": 6876,
+    "minimum_dwell_seconds": 106
+  },
+  {
+    "train_id": "P104",
+    "station_id": "S3",
+    "scheduled_arrival": 7512,
+    "scheduled_departure": 7606,
+    "minimum_dwell_seconds": 94
+  },
+  {
+    "train_id": "P104",
+    "station_id": "S2",
+    "scheduled_arrival": 8664,
+    "scheduled_departure": 8772,
+    "minimum_dwell_seconds": 108
+  },
+  {
+    "train_id": "P104",
+    "station_id": "S1",
+    "scheduled_arrival": 9408,
+    "scheduled_departure": 9433,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "F105",
+    "station_id": "S2",
+    "scheduled_arrival": 1969,
+    "scheduled_departure": 2093,
+    "minimum_dwell_seconds": 124
+  },
+  {
+    "train_id": "F105",
+    "station_id": "S3",
+    "scheduled_arrival": 3664,
+    "scheduled_departure": 3771,
+    "minimum_dwell_seconds": 107
+  },
+  {
+    "train_id": "F105",
+    "station_id": "S4",
+    "scheduled_arrival": 4787,
+    "scheduled_departure": 4888,
+    "minimum_dwell_seconds": 101
+  },
+  {
+    "train_id": "F105",
+    "station_id": "S5",
+    "scheduled_arrival": 8412,
+    "scheduled_departure": 8509,
+    "minimum_dwell_seconds": 97
+  },
+  {
+    "train_id": "F105",
+    "station_id": "S6",
+    "scheduled_arrival": 9807,
+    "scheduled_departure": 9896,
+    "minimum_dwell_seconds": 89
+  },
+  {
+    "train_id": "F105",
+    "station_id": "S7",
+    "scheduled_arrival": 11364,
+    "scheduled_departure": 11457,
+    "minimum_dwell_seconds": 93
+  },
+  {
+    "train_id": "F105",
+    "station_id": "S8",
+    "scheduled_arrival": 12925,
+    "scheduled_departure": 12950,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E106",
+    "station_id": "S7",
+    "scheduled_arrival": 2114,
+    "scheduled_departure": 2218,
+    "minimum_dwell_seconds": 104
+  },
+  {
+    "train_id": "E106",
+    "station_id": "S6",
+    "scheduled_arrival": 3523,
+    "scheduled_departure": 3548,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E106",
+    "station_id": "S5",
+    "scheduled_arrival": 5296,
+    "scheduled_departure": 5321,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E106",
+    "station_id": "S4",
+    "scheduled_arrival": 8340,
+    "scheduled_departure": 8426,
+    "minimum_dwell_seconds": 86
+  },
+  {
+    "train_id": "E106",
+    "station_id": "S3",
+    "scheduled_arrival": 9012,
+    "scheduled_departure": 9037,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E106",
+    "station_id": "S2",
+    "scheduled_arrival": 10095,
+    "scheduled_departure": 10197,
+    "minimum_dwell_seconds": 102
+  },
+  {
+    "train_id": "E106",
+    "station_id": "S1",
+    "scheduled_arrival": 10833,
+    "scheduled_departure": 10858,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "P107",
+    "station_id": "S2",
+    "scheduled_arrival": 2347,
+    "scheduled_departure": 2478,
+    "minimum_dwell_seconds": 131
+  },
+  {
+    "train_id": "P107",
+    "station_id": "S3",
+    "scheduled_arrival": 4253,
+    "scheduled_departure": 4335,
+    "minimum_dwell_seconds": 82
+  },
+  {
+    "train_id": "P107",
+    "station_id": "S4",
+    "scheduled_arrival": 5165,
+    "scheduled_departure": 5291,
+    "minimum_dwell_seconds": 126
+  },
+  {
+    "train_id": "P107",
+    "station_id": "S5",
+    "scheduled_arrival": 9718,
+    "scheduled_departure": 9827,
+    "minimum_dwell_seconds": 109
+  },
+  {
+    "train_id": "P107",
+    "station_id": "S6",
+    "scheduled_arrival": 10713,
+    "scheduled_departure": 10827,
+    "minimum_dwell_seconds": 114
+  },
+  {
+    "train_id": "P107",
+    "station_id": "S7",
+    "scheduled_arrival": 11975,
+    "scheduled_departure": 12062,
+    "minimum_dwell_seconds": 87
+  },
+  {
+    "train_id": "P107",
+    "station_id": "S8",
+    "scheduled_arrival": 13444,
+    "scheduled_departure": 13469,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "F108",
+    "station_id": "S7",
+    "scheduled_arrival": 3011,
+    "scheduled_departure": 3109,
+    "minimum_dwell_seconds": 98
+  },
+  {
+    "train_id": "F108",
+    "station_id": "S6",
+    "scheduled_arrival": 4405,
+    "scheduled_departure": 4538,
+    "minimum_dwell_seconds": 133
+  },
+  {
+    "train_id": "F108",
+    "station_id": "S5",
+    "scheduled_arrival": 5939,
+    "scheduled_departure": 6059,
+    "minimum_dwell_seconds": 120
+  },
+  {
+    "train_id": "F108",
+    "station_id": "S4",
+    "scheduled_arrival": 11174,
+    "scheduled_departure": 11293,
+    "minimum_dwell_seconds": 119
+  },
+  {
+    "train_id": "F108",
+    "station_id": "S3",
+    "scheduled_arrival": 12189,
+    "scheduled_departure": 12325,
+    "minimum_dwell_seconds": 136
+  },
+  {
+    "train_id": "F108",
+    "station_id": "S2",
+    "scheduled_arrival": 13571,
+    "scheduled_departure": 13706,
+    "minimum_dwell_seconds": 135
+  },
+  {
+    "train_id": "F108",
+    "station_id": "S1",
+    "scheduled_arrival": 14602,
+    "scheduled_departure": 14627,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "P109",
+    "station_id": "S2",
+    "scheduled_arrival": 2725,
+    "scheduled_departure": 2850,
+    "minimum_dwell_seconds": 125
+  },
+  {
+    "train_id": "P109",
+    "station_id": "S3",
+    "scheduled_arrival": 4842,
+    "scheduled_departure": 4926,
+    "minimum_dwell_seconds": 84
+  },
+  {
+    "train_id": "P109",
+    "station_id": "S4",
+    "scheduled_arrival": 5562,
+    "scheduled_departure": 5644,
+    "minimum_dwell_seconds": 82
+  },
+  {
+    "train_id": "P109",
+    "station_id": "S5",
+    "scheduled_arrival": 11195,
+    "scheduled_departure": 11317,
+    "minimum_dwell_seconds": 122
+  },
+  {
+    "train_id": "P109",
+    "station_id": "S6",
+    "scheduled_arrival": 12203,
+    "scheduled_departure": 12297,
+    "minimum_dwell_seconds": 94
+  },
+  {
+    "train_id": "P109",
+    "station_id": "S7",
+    "scheduled_arrival": 13399,
+    "scheduled_departure": 13528,
+    "minimum_dwell_seconds": 129
+  },
+  {
+    "train_id": "P109",
+    "station_id": "S8",
+    "scheduled_arrival": 14446,
+    "scheduled_departure": 14471,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "F110",
+    "station_id": "S7",
+    "scheduled_arrival": 3891,
+    "scheduled_departure": 4026,
+    "minimum_dwell_seconds": 135
+  },
+  {
+    "train_id": "F110",
+    "station_id": "S6",
+    "scheduled_arrival": 5494,
+    "scheduled_departure": 5580,
+    "minimum_dwell_seconds": 86
+  },
+  {
+    "train_id": "F110",
+    "station_id": "S5",
+    "scheduled_arrival": 6878,
+    "scheduled_departure": 6982,
+    "minimum_dwell_seconds": 104
+  },
+  {
+    "train_id": "F110",
+    "station_id": "S4",
+    "scheduled_arrival": 12837,
+    "scheduled_departure": 12934,
+    "minimum_dwell_seconds": 97
+  },
+  {
+    "train_id": "F110",
+    "station_id": "S3",
+    "scheduled_arrival": 13950,
+    "scheduled_departure": 14059,
+    "minimum_dwell_seconds": 109
+  },
+  {
+    "train_id": "F110",
+    "station_id": "S2",
+    "scheduled_arrival": 15471,
+    "scheduled_departure": 15591,
+    "minimum_dwell_seconds": 120
+  },
+  {
+    "train_id": "F110",
+    "station_id": "S1",
+    "scheduled_arrival": 16607,
+    "scheduled_departure": 16632,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E111",
+    "station_id": "S2",
+    "scheduled_arrival": 3103,
+    "scheduled_departure": 3205,
+    "minimum_dwell_seconds": 102
+  },
+  {
+    "train_id": "E111",
+    "station_id": "S3",
+    "scheduled_arrival": 5431,
+    "scheduled_departure": 5456,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E111",
+    "station_id": "S4",
+    "scheduled_arrival": 6042,
+    "scheduled_departure": 6135,
+    "minimum_dwell_seconds": 93
+  },
+  {
+    "train_id": "E111",
+    "station_id": "S5",
+    "scheduled_arrival": 12765,
+    "scheduled_departure": 12790,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E111",
+    "station_id": "S6",
+    "scheduled_arrival": 13676,
+    "scheduled_departure": 13701,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E111",
+    "station_id": "S7",
+    "scheduled_arrival": 14803,
+    "scheduled_departure": 14925,
+    "minimum_dwell_seconds": 122
+  },
+  {
+    "train_id": "E111",
+    "station_id": "S8",
+    "scheduled_arrival": 15843,
+    "scheduled_departure": 15868,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "P112",
+    "station_id": "S7",
+    "scheduled_arrival": 4410,
+    "scheduled_departure": 4531,
+    "minimum_dwell_seconds": 121
+  },
+  {
+    "train_id": "P112",
+    "station_id": "S6",
+    "scheduled_arrival": 6105,
+    "scheduled_departure": 6189,
+    "minimum_dwell_seconds": 84
+  },
+  {
+    "train_id": "P112",
+    "station_id": "S5",
+    "scheduled_arrival": 8106,
+    "scheduled_departure": 8224,
+    "minimum_dwell_seconds": 118
+  },
+  {
+    "train_id": "P112",
+    "station_id": "S4",
+    "scheduled_arrival": 14143,
+    "scheduled_departure": 14263,
+    "minimum_dwell_seconds": 120
+  },
+  {
+    "train_id": "P112",
+    "station_id": "S3",
+    "scheduled_arrival": 14899,
+    "scheduled_departure": 14989,
+    "minimum_dwell_seconds": 90
+  },
+  {
+    "train_id": "P112",
+    "station_id": "S2",
+    "scheduled_arrival": 16060,
+    "scheduled_departure": 16174,
+    "minimum_dwell_seconds": 114
+  },
+  {
+    "train_id": "P112",
+    "station_id": "S1",
+    "scheduled_arrival": 16985,
+    "scheduled_departure": 17010,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "F113",
+    "station_id": "S2",
+    "scheduled_arrival": 3639,
+    "scheduled_departure": 3743,
+    "minimum_dwell_seconds": 104
+  },
+  {
+    "train_id": "F113",
+    "station_id": "S3",
+    "scheduled_arrival": 7286,
+    "scheduled_departure": 7383,
+    "minimum_dwell_seconds": 97
+  },
+  {
+    "train_id": "F113",
+    "station_id": "S4",
+    "scheduled_arrival": 8335,
+    "scheduled_departure": 8474,
+    "minimum_dwell_seconds": 139
+  },
+  {
+    "train_id": "F113",
+    "station_id": "S5",
+    "scheduled_arrival": 15685,
+    "scheduled_departure": 15805,
+    "minimum_dwell_seconds": 120
+  },
+  {
+    "train_id": "F113",
+    "station_id": "S6",
+    "scheduled_arrival": 17023,
+    "scheduled_departure": 17147,
+    "minimum_dwell_seconds": 124
+  },
+  {
+    "train_id": "F113",
+    "station_id": "S7",
+    "scheduled_arrival": 18523,
+    "scheduled_departure": 18638,
+    "minimum_dwell_seconds": 115
+  },
+  {
+    "train_id": "F113",
+    "station_id": "S8",
+    "scheduled_arrival": 20014,
+    "scheduled_departure": 20039,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "P114",
+    "station_id": "S7",
+    "scheduled_arrival": 4929,
+    "scheduled_departure": 5062,
+    "minimum_dwell_seconds": 133
+  },
+  {
+    "train_id": "P114",
+    "station_id": "S6",
+    "scheduled_arrival": 6716,
+    "scheduled_departure": 6845,
+    "minimum_dwell_seconds": 129
+  },
+  {
+    "train_id": "P114",
+    "station_id": "S5",
+    "scheduled_arrival": 9661,
+    "scheduled_departure": 9790,
+    "minimum_dwell_seconds": 129
+  },
+  {
+    "train_id": "P114",
+    "station_id": "S4",
+    "scheduled_arrival": 15663,
+    "scheduled_departure": 15746,
+    "minimum_dwell_seconds": 83
+  },
+  {
+    "train_id": "P114",
+    "station_id": "S3",
+    "scheduled_arrival": 16382,
+    "scheduled_departure": 16476,
+    "minimum_dwell_seconds": 94
+  },
+  {
+    "train_id": "P114",
+    "station_id": "S2",
+    "scheduled_arrival": 17534,
+    "scheduled_departure": 17666,
+    "minimum_dwell_seconds": 132
+  },
+  {
+    "train_id": "P114",
+    "station_id": "S1",
+    "scheduled_arrival": 18302,
+    "scheduled_departure": 18327,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "F115",
+    "station_id": "S2",
+    "scheduled_arrival": 4175,
+    "scheduled_departure": 4272,
+    "minimum_dwell_seconds": 97
+  },
+  {
+    "train_id": "F115",
+    "station_id": "S3",
+    "scheduled_arrival": 8857,
+    "scheduled_departure": 8941,
+    "minimum_dwell_seconds": 84
+  },
+  {
+    "train_id": "F115",
+    "station_id": "S4",
+    "scheduled_arrival": 9893,
+    "scheduled_departure": 9986,
+    "minimum_dwell_seconds": 93
+  },
+  {
+    "train_id": "F115",
+    "station_id": "S5",
+    "scheduled_arrival": 17205,
+    "scheduled_departure": 17343,
+    "minimum_dwell_seconds": 138
+  },
+  {
+    "train_id": "F115",
+    "station_id": "S6",
+    "scheduled_arrival": 18561,
+    "scheduled_departure": 18701,
+    "minimum_dwell_seconds": 140
+  },
+  {
+    "train_id": "F115",
+    "station_id": "S7",
+    "scheduled_arrival": 20077,
+    "scheduled_departure": 20193,
+    "minimum_dwell_seconds": 116
+  },
+  {
+    "train_id": "F115",
+    "station_id": "S8",
+    "scheduled_arrival": 21569,
+    "scheduled_departure": 21594,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E116",
+    "station_id": "S7",
+    "scheduled_arrival": 5448,
+    "scheduled_departure": 5559,
+    "minimum_dwell_seconds": 111
+  },
+  {
+    "train_id": "E116",
+    "station_id": "S6",
+    "scheduled_arrival": 7327,
+    "scheduled_departure": 7352,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E116",
+    "station_id": "S5",
+    "scheduled_arrival": 10773,
+    "scheduled_departure": 10798,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E116",
+    "station_id": "S4",
+    "scheduled_arrival": 17183,
+    "scheduled_departure": 17288,
+    "minimum_dwell_seconds": 105
+  },
+  {
+    "train_id": "E116",
+    "station_id": "S3",
+    "scheduled_arrival": 17874,
+    "scheduled_departure": 17899,
+    "minimum_dwell_seconds": 25
+  },
+  {
+    "train_id": "E116",
+    "station_id": "S2",
+    "scheduled_arrival": 18957,
+    "scheduled_departure": 19093,
+    "minimum_dwell_seconds": 136
+  },
+  {
+    "train_id": "E116",
+    "station_id": "S1",
+    "scheduled_arrival": 19729,
+    "scheduled_departure": 19754,
+    "minimum_dwell_seconds": 25
+  }
+]

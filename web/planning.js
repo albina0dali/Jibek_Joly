@@ -1,6 +1,6 @@
 import {advice} from './journey.js';
 import {step,action,assertWorld,metrics,incidentFor,durations,targetBlock} from './corridor-engine.js';
-import {quality,defaultConfig} from './quality.js';
+import {movementQuality as quality,defaultConfig} from './quality.js';
 export const policies=[
 {id:'base',name:['Ожидание по очереди','Кезекпен күту'],order:'fifo',repair:false,reserve:false},
 {id:'repair',name:['Ремонт + пассажирский приоритет','Жөндеу + жолаушы басымдығы'],order:'passenger',repair:true,reserve:false},

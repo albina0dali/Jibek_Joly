@@ -3,6 +3,7 @@ import { build } from "esbuild";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { startExtension } from './start-extension.mjs';
 
 const root = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -65,6 +66,7 @@ await build({
   outfile: ".jol-local/worker.mjs"
 });
 
+const extension = startExtension();
 const mf = new Miniflare({
   modules: true,
   scriptPath: path.join(root, ".jol-local/worker.mjs"),
@@ -73,8 +75,26 @@ const mf = new Miniflare({
   compatibilityDate: "2025-09-01",
   d1Databases: ["DB"],
   d1Persist: path.join(root, ".jol-local/database"),
+  serviceBindings: {
+    EXTENSION_SERVICE: async request => {
+      const url = new URL(request.url);
+      const allowed = new URL(extension.url);
+      if (url.origin !== allowed.origin) return new Response('Invalid extension origin', {status:403});
+      const headers = new Headers(request.headers);
+      headers.delete('host');headers.delete('content-length');
+      try {
+        return await fetch(url, {method:request.method,headers,body:['GET','HEAD'].includes(request.method)?undefined:await request.arrayBuffer(),redirect:'error'});
+      } catch(error) {
+        console.error('Local extension connection:', error, error.cause);
+        return Response.json({detail:'Local extension connection failed'},{status:503});
+      }
+    }
+  },
   bindings: {
-    ADMIN_EMAIL: "developer@localhost"
+    ADMIN_EMAIL: "developer@localhost",
+    EXTENSION_URL: extension.url,
+    ...(process.env.EXTENSION_SERVICE_KEY?{EXTENSION_SERVICE_KEY:process.env.EXTENSION_SERVICE_KEY}:{}),
+    ...(process.env.EXTENSION_DISPATCH_PASSWORD?{EXTENSION_DISPATCH_PASSWORD:process.env.EXTENSION_DISPATCH_PASSWORD}:{})
   }
 });
 
@@ -118,10 +138,12 @@ try {
   console.log("Stop: Ctrl+C");
 
   process.on("SIGINT", async () => {
+    extension.stop();
     await mf.dispose();
     process.exit(0);
   });
 } catch (error) {
+  extension.stop();
   console.error(error);
   await mf.dispose();
   process.exitCode = 1;

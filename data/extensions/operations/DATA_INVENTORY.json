@@ -1,0 +1,168 @@
+[
+  {
+    "source": "backend/data/blocks.json",
+    "original_sha256": "9819f0cf6d1c568c77d636b72adacbb07840fee4c25ac3c3c05c43d1542b7d20",
+    "kind": "list",
+    "count": 14,
+    "fields": [
+      "id",
+      "from_station",
+      "to_station",
+      "start_km",
+      "end_km",
+      "distance_km",
+      "track_type",
+      "directionality",
+      "speed_limit_kmh",
+      "capacity",
+      "status"
+    ],
+    "included": true
+  },
+  {
+    "source": "backend/data/incidents.json",
+    "original_sha256": "526b12b7c62a63eeec5c72163d51a17daf1e55adf54b64bb81c62ef904965a49",
+    "kind": "list",
+    "count": 2,
+    "fields": [
+      "type",
+      "location_id",
+      "duration"
+    ],
+    "included": true
+  },
+  {
+    "source": "backend/data/metadata.json",
+    "original_sha256": "53dbf425d07c1bde17cac8a192f2cb9ac08d21c5b75b2f4a6998e991b90c0ef8",
+    "kind": "dict",
+    "count": 5,
+    "fields": [
+      "seed",
+      "fictional",
+      "simulation_start",
+      "timezone",
+      "epoch"
+    ],
+    "included": true
+  },
+  {
+    "source": "backend/data/resource_scenarios.json",
+    "original_sha256": "8f1f859c28a321a6d72535d75da6c48d5d93d0a7e721d8aae4c42cd28e820bfe",
+    "kind": "dict",
+    "count": 5,
+    "fields": [
+      "seed",
+      "provenance",
+      "yard",
+      "fleet",
+      "maintenance"
+    ],
+    "included": true,
+    "selection": [
+      "seed",
+      "provenance",
+      "yard"
+    ],
+    "excluded_sections": [
+      "fleet",
+      "maintenance"
+    ],
+    "nested_counts": {
+      "wagons": 120,
+      "tracks": 4,
+      "shunters": 2
+    }
+  },
+  {
+    "source": "backend/data/schedule.json",
+    "original_sha256": "e02d857085b72efa0a51970de4dfdaf4d297583c9a9c4bf7b0696a147aea10a0",
+    "kind": "list",
+    "count": 336,
+    "fields": [
+      "train_id",
+      "resource",
+      "kind",
+      "start",
+      "end",
+      "from_km",
+      "to_km",
+      "direction",
+      "lane"
+    ],
+    "included": true
+  },
+  {
+    "source": "backend/data/signals.json",
+    "original_sha256": "dabf521034eaf867ed4957a6ad5504f8529b2ebd3be5a95ff09e600df5e8cb29",
+    "kind": "list",
+    "count": 28,
+    "fields": [
+      "id",
+      "block_id",
+      "direction",
+      "status",
+      "last_update"
+    ],
+    "included": true
+  },
+  {
+    "source": "backend/data/speed_limits.json",
+    "original_sha256": "b863a29fd8d2a7dcfce79c161de2f708830d23f7d73e3ae14e71fe5a35531254",
+    "kind": "list",
+    "count": 14,
+    "fields": [
+      "block_id",
+      "speed_limit_kmh"
+    ],
+    "included": true
+  },
+  {
+    "source": "backend/data/stations.json",
+    "original_sha256": "2117f449dce199428331c366e84dc0d0ea6613948ad1215a07ec8587d97fff79",
+    "kind": "list",
+    "count": 8,
+    "fields": [
+      "id",
+      "name",
+      "distance_km",
+      "platform_count",
+      "siding_available"
+    ],
+    "included": true
+  },
+  {
+    "source": "backend/data/timetable.json",
+    "original_sha256": "a9bc3d491ec3a4bf83004aac37e32b427c95a82944adc26974d6b755005c2fcd",
+    "kind": "list",
+    "count": 112,
+    "fields": [
+      "train_id",
+      "station_id",
+      "scheduled_arrival",
+      "scheduled_departure",
+      "minimum_dwell_seconds"
+    ],
+    "included": true
+  },
+  {
+    "source": "backend/data/trains.json",
+    "original_sha256": "46f0ba4370ddae80b57ee09191b4454b58473bd0ff0d0d93f38f92a5093db731",
+    "kind": "list",
+    "count": 16,
+    "fields": [
+      "id",
+      "service_number",
+      "type",
+      "priority",
+      "origin",
+      "destination",
+      "length_m",
+      "max_speed_kmh",
+      "scheduled_departure",
+      "scheduled_arrival",
+      "planned_stops",
+      "direction"
+    ],
+    "included": true
+  }
+]

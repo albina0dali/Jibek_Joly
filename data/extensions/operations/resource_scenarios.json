@@ -1,0 +1,1251 @@
+{
+  "seed": 42,
+  "provenance": "SIMULATED / DERIVED",
+  "yard": {
+    "station_id": "team-station-7",
+    "reference_time": 2400,
+    "wagons": [
+      {
+        "id": "W001",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 15,
+        "mass_t": 62,
+        "arrival_time": 2820,
+        "deadline": 5820
+      },
+      {
+        "id": "W002",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 51,
+        "arrival_time": 3240,
+        "deadline": 8940
+      },
+      {
+        "id": "W003",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 16,
+        "mass_t": 82,
+        "arrival_time": 4440,
+        "deadline": 8640
+      },
+      {
+        "id": "W004",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 50,
+        "arrival_time": 2520,
+        "deadline": 5520
+      },
+      {
+        "id": "W005",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 23,
+        "mass_t": 83,
+        "arrival_time": 3240,
+        "deadline": 6240
+      },
+      {
+        "id": "W006",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 23,
+        "mass_t": 71,
+        "arrival_time": 3120,
+        "deadline": 6120
+      },
+      {
+        "id": "W007",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 24,
+        "mass_t": 62,
+        "arrival_time": 4080,
+        "deadline": 7080
+      },
+      {
+        "id": "W008",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 21,
+        "mass_t": 66,
+        "arrival_time": 3000,
+        "deadline": 7200
+      },
+      {
+        "id": "W009",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 18,
+        "mass_t": 66,
+        "arrival_time": 2940,
+        "deadline": 5940
+      },
+      {
+        "id": "W010",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 21,
+        "mass_t": 51,
+        "arrival_time": 2700,
+        "deadline": 6900
+      },
+      {
+        "id": "W011",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 24,
+        "mass_t": 61,
+        "arrival_time": 3720,
+        "deadline": 6720
+      },
+      {
+        "id": "W012",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 23,
+        "mass_t": 52,
+        "arrival_time": 4140,
+        "deadline": 8340
+      },
+      {
+        "id": "W013",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 2,
+        "length_m": 23,
+        "mass_t": 63,
+        "arrival_time": 2700,
+        "deadline": 8400
+      },
+      {
+        "id": "W014",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 24,
+        "mass_t": 57,
+        "arrival_time": 3780,
+        "deadline": 9480
+      },
+      {
+        "id": "W015",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 59,
+        "arrival_time": 2640,
+        "deadline": 6840
+      },
+      {
+        "id": "W016",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 51,
+        "arrival_time": 2700,
+        "deadline": 6900
+      },
+      {
+        "id": "W017",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 22,
+        "mass_t": 85,
+        "arrival_time": 3420,
+        "deadline": 7620
+      },
+      {
+        "id": "W018",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 20,
+        "mass_t": 67,
+        "arrival_time": 3000,
+        "deadline": 6000
+      },
+      {
+        "id": "W019",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 16,
+        "mass_t": 83,
+        "arrival_time": 3420,
+        "deadline": 9120
+      },
+      {
+        "id": "W020",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 23,
+        "mass_t": 60,
+        "arrival_time": 3000,
+        "deadline": 6000
+      },
+      {
+        "id": "W021",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 21,
+        "mass_t": 62,
+        "arrival_time": 4140,
+        "deadline": 9840
+      },
+      {
+        "id": "W022",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 20,
+        "mass_t": 48,
+        "arrival_time": 3240,
+        "deadline": 6240
+      },
+      {
+        "id": "W023",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 20,
+        "mass_t": 70,
+        "arrival_time": 2520,
+        "deadline": 6720
+      },
+      {
+        "id": "W024",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 81,
+        "arrival_time": 2640,
+        "deadline": 8340
+      },
+      {
+        "id": "W025",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 2,
+        "length_m": 18,
+        "mass_t": 76,
+        "arrival_time": 3600,
+        "deadline": 7800
+      },
+      {
+        "id": "W026",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 61,
+        "arrival_time": 4140,
+        "deadline": 7140
+      },
+      {
+        "id": "W027",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 23,
+        "mass_t": 79,
+        "arrival_time": 3300,
+        "deadline": 7500
+      },
+      {
+        "id": "W028",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 24,
+        "mass_t": 70,
+        "arrival_time": 4020,
+        "deadline": 8220
+      },
+      {
+        "id": "W029",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 17,
+        "mass_t": 77,
+        "arrival_time": 3240,
+        "deadline": 7440
+      },
+      {
+        "id": "W030",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 52,
+        "arrival_time": 2700,
+        "deadline": 5700
+      },
+      {
+        "id": "W031",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 21,
+        "mass_t": 83,
+        "arrival_time": 3000,
+        "deadline": 6000
+      },
+      {
+        "id": "W032",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 21,
+        "mass_t": 83,
+        "arrival_time": 3840,
+        "deadline": 8040
+      },
+      {
+        "id": "W033",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 19,
+        "mass_t": 80,
+        "arrival_time": 4380,
+        "deadline": 7380
+      },
+      {
+        "id": "W034",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 23,
+        "mass_t": 62,
+        "arrival_time": 2820,
+        "deadline": 8520
+      },
+      {
+        "id": "W035",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 16,
+        "mass_t": 63,
+        "arrival_time": 3660,
+        "deadline": 7860
+      },
+      {
+        "id": "W036",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 22,
+        "mass_t": 45,
+        "arrival_time": 3000,
+        "deadline": 8700
+      },
+      {
+        "id": "W037",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 23,
+        "mass_t": 56,
+        "arrival_time": 3360,
+        "deadline": 9060
+      },
+      {
+        "id": "W038",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 85,
+        "arrival_time": 2760,
+        "deadline": 8460
+      },
+      {
+        "id": "W039",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 68,
+        "arrival_time": 3120,
+        "deadline": 6120
+      },
+      {
+        "id": "W040",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 23,
+        "mass_t": 45,
+        "arrival_time": 4440,
+        "deadline": 10140
+      },
+      {
+        "id": "W041",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 22,
+        "mass_t": 46,
+        "arrival_time": 3600,
+        "deadline": 6600
+      },
+      {
+        "id": "W042",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 60,
+        "arrival_time": 3780,
+        "deadline": 6780
+      },
+      {
+        "id": "W043",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 24,
+        "mass_t": 50,
+        "arrival_time": 3300,
+        "deadline": 6300
+      },
+      {
+        "id": "W044",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 16,
+        "mass_t": 79,
+        "arrival_time": 4260,
+        "deadline": 7260
+      },
+      {
+        "id": "W045",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 22,
+        "mass_t": 80,
+        "arrival_time": 2880,
+        "deadline": 5880
+      },
+      {
+        "id": "W046",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 23,
+        "mass_t": 83,
+        "arrival_time": 3360,
+        "deadline": 7560
+      },
+      {
+        "id": "W047",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 23,
+        "mass_t": 57,
+        "arrival_time": 3180,
+        "deadline": 8880
+      },
+      {
+        "id": "W048",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 21,
+        "mass_t": 68,
+        "arrival_time": 3540,
+        "deadline": 7740
+      },
+      {
+        "id": "W049",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 2,
+        "length_m": 22,
+        "mass_t": 52,
+        "arrival_time": 4380,
+        "deadline": 7380
+      },
+      {
+        "id": "W050",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 16,
+        "mass_t": 66,
+        "arrival_time": 3240,
+        "deadline": 6240
+      },
+      {
+        "id": "W051",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 24,
+        "mass_t": 59,
+        "arrival_time": 3240,
+        "deadline": 6240
+      },
+      {
+        "id": "W052",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 59,
+        "arrival_time": 2640,
+        "deadline": 5640
+      },
+      {
+        "id": "W053",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 20,
+        "mass_t": 49,
+        "arrival_time": 2520,
+        "deadline": 8220
+      },
+      {
+        "id": "W054",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 76,
+        "arrival_time": 3300,
+        "deadline": 6300
+      },
+      {
+        "id": "W055",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 17,
+        "mass_t": 81,
+        "arrival_time": 4440,
+        "deadline": 10140
+      },
+      {
+        "id": "W056",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 75,
+        "arrival_time": 4200,
+        "deadline": 8400
+      },
+      {
+        "id": "W057",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 16,
+        "mass_t": 51,
+        "arrival_time": 3120,
+        "deadline": 8820
+      },
+      {
+        "id": "W058",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 20,
+        "mass_t": 72,
+        "arrival_time": 4020,
+        "deadline": 8220
+      },
+      {
+        "id": "W059",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 51,
+        "arrival_time": 4140,
+        "deadline": 7140
+      },
+      {
+        "id": "W060",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 20,
+        "mass_t": 51,
+        "arrival_time": 3900,
+        "deadline": 6900
+      },
+      {
+        "id": "W061",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 2,
+        "length_m": 18,
+        "mass_t": 79,
+        "arrival_time": 3120,
+        "deadline": 7320
+      },
+      {
+        "id": "W062",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 21,
+        "mass_t": 56,
+        "arrival_time": 2880,
+        "deadline": 7080
+      },
+      {
+        "id": "W063",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 49,
+        "arrival_time": 4140,
+        "deadline": 8340
+      },
+      {
+        "id": "W064",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 15,
+        "mass_t": 79,
+        "arrival_time": 2760,
+        "deadline": 5760
+      },
+      {
+        "id": "W065",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 18,
+        "mass_t": 55,
+        "arrival_time": 2700,
+        "deadline": 6900
+      },
+      {
+        "id": "W066",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 22,
+        "mass_t": 58,
+        "arrival_time": 4260,
+        "deadline": 8460
+      },
+      {
+        "id": "W067",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 69,
+        "arrival_time": 2580,
+        "deadline": 5580
+      },
+      {
+        "id": "W068",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 74,
+        "arrival_time": 3840,
+        "deadline": 8040
+      },
+      {
+        "id": "W069",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 23,
+        "mass_t": 76,
+        "arrival_time": 4020,
+        "deadline": 7020
+      },
+      {
+        "id": "W070",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 58,
+        "arrival_time": 3120,
+        "deadline": 6120
+      },
+      {
+        "id": "W071",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 65,
+        "arrival_time": 4440,
+        "deadline": 7440
+      },
+      {
+        "id": "W072",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 24,
+        "mass_t": 75,
+        "arrival_time": 2580,
+        "deadline": 8280
+      },
+      {
+        "id": "W073",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 17,
+        "mass_t": 48,
+        "arrival_time": 4380,
+        "deadline": 10080
+      },
+      {
+        "id": "W074",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 49,
+        "arrival_time": 2700,
+        "deadline": 8400
+      },
+      {
+        "id": "W075",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 70,
+        "arrival_time": 2640,
+        "deadline": 5640
+      },
+      {
+        "id": "W076",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 24,
+        "mass_t": 83,
+        "arrival_time": 3300,
+        "deadline": 6300
+      },
+      {
+        "id": "W077",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 21,
+        "mass_t": 82,
+        "arrival_time": 2700,
+        "deadline": 8400
+      },
+      {
+        "id": "W078",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 20,
+        "mass_t": 61,
+        "arrival_time": 4380,
+        "deadline": 7380
+      },
+      {
+        "id": "W079",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 61,
+        "arrival_time": 3600,
+        "deadline": 7800
+      },
+      {
+        "id": "W080",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 74,
+        "arrival_time": 2880,
+        "deadline": 7080
+      },
+      {
+        "id": "W081",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 15,
+        "mass_t": 74,
+        "arrival_time": 2640,
+        "deadline": 8340
+      },
+      {
+        "id": "W082",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 16,
+        "mass_t": 79,
+        "arrival_time": 2760,
+        "deadline": 5760
+      },
+      {
+        "id": "W083",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 53,
+        "arrival_time": 4320,
+        "deadline": 8520
+      },
+      {
+        "id": "W084",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 68,
+        "arrival_time": 2640,
+        "deadline": 6840
+      },
+      {
+        "id": "W085",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 2,
+        "length_m": 22,
+        "mass_t": 79,
+        "arrival_time": 3000,
+        "deadline": 8700
+      },
+      {
+        "id": "W086",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 24,
+        "mass_t": 78,
+        "arrival_time": 3540,
+        "deadline": 6540
+      },
+      {
+        "id": "W087",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 16,
+        "mass_t": 53,
+        "arrival_time": 3540,
+        "deadline": 7740
+      },
+      {
+        "id": "W088",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 16,
+        "mass_t": 80,
+        "arrival_time": 2820,
+        "deadline": 5820
+      },
+      {
+        "id": "W089",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 19,
+        "mass_t": 83,
+        "arrival_time": 3420,
+        "deadline": 6420
+      },
+      {
+        "id": "W090",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 85,
+        "arrival_time": 3660,
+        "deadline": 7860
+      },
+      {
+        "id": "W091",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 22,
+        "mass_t": 61,
+        "arrival_time": 4320,
+        "deadline": 7320
+      },
+      {
+        "id": "W092",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 21,
+        "mass_t": 62,
+        "arrival_time": 2700,
+        "deadline": 5700
+      },
+      {
+        "id": "W093",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 20,
+        "mass_t": 53,
+        "arrival_time": 2400,
+        "deadline": 8100
+      },
+      {
+        "id": "W094",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 73,
+        "arrival_time": 3360,
+        "deadline": 9060
+      },
+      {
+        "id": "W095",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 23,
+        "mass_t": 45,
+        "arrival_time": 4020,
+        "deadline": 7020
+      },
+      {
+        "id": "W096",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 79,
+        "arrival_time": 2640,
+        "deadline": 5640
+      },
+      {
+        "id": "W097",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 2,
+        "length_m": 24,
+        "mass_t": 80,
+        "arrival_time": 3780,
+        "deadline": 6780
+      },
+      {
+        "id": "W098",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 47,
+        "arrival_time": 4020,
+        "deadline": 8220
+      },
+      {
+        "id": "W099",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 67,
+        "arrival_time": 3780,
+        "deadline": 6780
+      },
+      {
+        "id": "W100",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 16,
+        "mass_t": 67,
+        "arrival_time": 3300,
+        "deadline": 9000
+      },
+      {
+        "id": "W101",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 24,
+        "mass_t": 54,
+        "arrival_time": 3960,
+        "deadline": 6960
+      },
+      {
+        "id": "W102",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 17,
+        "mass_t": 71,
+        "arrival_time": 3000,
+        "deadline": 6000
+      },
+      {
+        "id": "W103",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 20,
+        "mass_t": 71,
+        "arrival_time": 3060,
+        "deadline": 8760
+      },
+      {
+        "id": "W104",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 55,
+        "arrival_time": 3300,
+        "deadline": 9000
+      },
+      {
+        "id": "W105",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 21,
+        "mass_t": 47,
+        "arrival_time": 2760,
+        "deadline": 6960
+      },
+      {
+        "id": "W106",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 74,
+        "arrival_time": 3240,
+        "deadline": 7440
+      },
+      {
+        "id": "W107",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 18,
+        "mass_t": 59,
+        "arrival_time": 3540,
+        "deadline": 6540
+      },
+      {
+        "id": "W108",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 21,
+        "mass_t": 66,
+        "arrival_time": 3120,
+        "deadline": 7320
+      },
+      {
+        "id": "W109",
+        "destination": "team-station-3",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 19,
+        "mass_t": 67,
+        "arrival_time": 2640,
+        "deadline": 8340
+      },
+      {
+        "id": "W110",
+        "destination": "team-station-4",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 21,
+        "mass_t": 79,
+        "arrival_time": 4320,
+        "deadline": 8520
+      },
+      {
+        "id": "W111",
+        "destination": "team-station-5",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 16,
+        "mass_t": 61,
+        "arrival_time": 2460,
+        "deadline": 5460
+      },
+      {
+        "id": "W112",
+        "destination": "team-station-8",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 51,
+        "arrival_time": 3360,
+        "deadline": 9060
+      },
+      {
+        "id": "W113",
+        "destination": "team-station-3",
+        "cargo": "containers",
+        "priority": 2,
+        "length_m": 20,
+        "mass_t": 65,
+        "arrival_time": 4020,
+        "deadline": 8220
+      },
+      {
+        "id": "W114",
+        "destination": "team-station-4",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 16,
+        "mass_t": 69,
+        "arrival_time": 4320,
+        "deadline": 10020
+      },
+      {
+        "id": "W115",
+        "destination": "team-station-5",
+        "cargo": "grain",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 47,
+        "arrival_time": 3120,
+        "deadline": 8820
+      },
+      {
+        "id": "W116",
+        "destination": "team-station-8",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 15,
+        "mass_t": 78,
+        "arrival_time": 4020,
+        "deadline": 9720
+      },
+      {
+        "id": "W117",
+        "destination": "team-station-3",
+        "cargo": "ore",
+        "priority": 2,
+        "length_m": 20,
+        "mass_t": 72,
+        "arrival_time": 3120,
+        "deadline": 6120
+      },
+      {
+        "id": "W118",
+        "destination": "team-station-4",
+        "cargo": "grain",
+        "priority": 3,
+        "length_m": 24,
+        "mass_t": 65,
+        "arrival_time": 3660,
+        "deadline": 9360
+      },
+      {
+        "id": "W119",
+        "destination": "team-station-5",
+        "cargo": "containers",
+        "priority": 1,
+        "length_m": 19,
+        "mass_t": 77,
+        "arrival_time": 2820,
+        "deadline": 7020
+      },
+      {
+        "id": "W120",
+        "destination": "team-station-8",
+        "cargo": "ore",
+        "priority": 1,
+        "length_m": 20,
+        "mass_t": 70,
+        "arrival_time": 3960,
+        "deadline": 9660
+      }
+    ],
+    "tracks": [
+      {
+        "id": "YT1",
+        "length_m": 620,
+        "max_mass_t": 2000,
+        "available_time": 2400
+      },
+      {
+        "id": "YT2",
+        "length_m": 520,
+        "max_mass_t": 2000,
+        "available_time": 3120
+      },
+      {
+        "id": "YT3",
+        "length_m": 720,
+        "max_mass_t": 2000,
+        "available_time": 3480
+      },
+      {
+        "id": "YT4",
+        "length_m": 450,
+        "max_mass_t": 2000,
+        "available_time": 4500
+      }
+    ],
+    "shunters": [
+      {
+        "id": "SH01",
+        "available_time": 2400
+      },
+      {
+        "id": "SH02",
+        "available_time": 3120
+      }
+    ],
+    "max_train_length_m": 620,
+    "max_train_mass_t": 1800,
+    "formation_setup_minutes": 8,
+    "formation_minutes_per_wagon": 1,
+    "departure_clearance_minutes": 4
+  }
+}

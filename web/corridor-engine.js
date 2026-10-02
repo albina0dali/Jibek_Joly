@@ -3,10 +3,12 @@ import {syntheticData} from './synthetic-data.js';
 import {ecoAdvice} from './eco-model.js';
 import {waveTimetable} from './timetable-data.js';
 import {recordFrame} from './journey.js';
-import {quality,getQualityConfig} from './quality.js';
+import {movementQuality as quality,getQualityConfig} from './quality.js';
+import {stationDisplayName} from './stations.js';
 export const nodes=[
 {name:'Көкшетау',x:-80,z:-5},{name:'Бурабай',x:-60,z:4},{name:'Ақкөл',x:-40,z:-2},{name:'Астана',x:-19,z:8},{name:'Қарағанды',x:4,z:2},{name:'Мойынты',x:25,z:-8},{name:'Шу',x:47,z:-3},{name:'Алматы-1',x:67,z:7},{name:'Алматы-2',x:85,z:0}];
 export const durations=[9,11,8,14,12,10,9,7];
+nodes.forEach((node,index)=>{node.id=`team-station-${index}`;node.name=stationDisplayName('team',index)});
 export const trainDefs=[
 {id:'SIM-TAL-021',name:['Скоростной · Көкшетау → Алматы','Жүрдек · Көкшетау → Алматы'],type:0,color:'#36d9bc',weight:3,people:320,start:0,dir:1},
 {id:'SIM-TAL-022',name:['Скоростной · Алматы → Көкшетау','Жүрдек · Алматы → Көкшетау'],type:0,color:'#69b6ff',weight:3,people:300,start:8,dir:-1},

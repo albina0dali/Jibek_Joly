@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+dist/
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.tsbuildinfo

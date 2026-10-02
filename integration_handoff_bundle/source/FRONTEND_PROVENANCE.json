@@ -1,0 +1,246 @@
+[
+  {
+    "original": "frontend/src/pages.tsx",
+    "target": "source/movement_plan/Dispatch.tsx",
+    "mode": "AST declaration extraction; original bodies preserved",
+    "declarations": [
+      {
+        "name": "Dispatch",
+        "line": 25
+      }
+    ],
+    "original_sha256": "638ad62f54b2cf6b0b51b3f1e247679b12016f540d7cedd314a9ecef4c5cc417"
+  },
+  {
+    "original": "frontend/src/pages.tsx",
+    "target": "source/history_reports/History.tsx",
+    "mode": "AST declaration extraction; original bodies preserved",
+    "declarations": [
+      {
+        "name": "History",
+        "line": 36
+      }
+    ],
+    "original_sha256": "638ad62f54b2cf6b0b51b3f1e247679b12016f540d7cedd314a9ecef4c5cc417"
+  },
+  {
+    "original": "frontend/src/pages.tsx",
+    "target": "source/shared_required_only/frontend/src/PageTitle.tsx",
+    "mode": "AST declaration extraction; original bodies preserved",
+    "declarations": [
+      {
+        "name": "PageTitle",
+        "line": 10
+      }
+    ],
+    "original_sha256": "638ad62f54b2cf6b0b51b3f1e247679b12016f540d7cedd314a9ecef4c5cc417"
+  },
+  {
+    "original": "frontend/src/pages.tsx",
+    "target": "source/shared_required_only/frontend/src/page-contract.ts",
+    "mode": "AST declaration extraction; original bodies preserved",
+    "declarations": [
+      {
+        "name": "PageProps",
+        "line": 9
+      }
+    ],
+    "original_sha256": "638ad62f54b2cf6b0b51b3f1e247679b12016f540d7cedd314a9ecef4c5cc417"
+  },
+  {
+    "original": "frontend/src/components.tsx",
+    "target": "source/shared_required_only/frontend/src/components.tsx",
+    "mode": "AST declaration extraction; original bodies preserved",
+    "declarations": [
+      {
+        "name": "trainColor",
+        "line": 7
+      },
+      {
+        "name": "Badge",
+        "line": 8
+      },
+      {
+        "name": "Panel",
+        "line": 9
+      },
+      {
+        "name": "Network",
+        "line": 11
+      },
+      {
+        "name": "Diagram",
+        "line": 23
+      },
+      {
+        "name": "TrainDrawer",
+        "line": 41
+      }
+    ],
+    "original_sha256": "010a6369a1f66253ef24f1bf036f1f5239f1a949de0252d5dcc6d2ebc36208c8"
+  },
+  {
+    "original": "frontend/src/types.ts",
+    "target": "source/shared_required_only/frontend/src/types.ts",
+    "mode": "AST declaration extraction; original bodies preserved",
+    "declarations": [
+      {
+        "name": "Station",
+        "line": 1
+      },
+      {
+        "name": "Block",
+        "line": 2
+      },
+      {
+        "name": "Conflict",
+        "line": 3
+      },
+      {
+        "name": "Incident",
+        "line": 4
+      },
+      {
+        "name": "Train",
+        "line": 5
+      },
+      {
+        "name": "Visit",
+        "line": 6
+      },
+      {
+        "name": "Quality",
+        "line": 7
+      },
+      {
+        "name": "Option",
+        "line": 8
+      },
+      {
+        "name": "Snapshot",
+        "line": 9
+      },
+      {
+        "name": "Session",
+        "line": 10
+      }
+    ],
+    "original_sha256": "20c01c0226e696e277bcc83b6de0f683d81663342b1bd2c48d07018f26fda66e"
+  },
+  {
+    "original": "frontend/src/resource-types.ts",
+    "target": "source/wagons_consists/resource-types.ts",
+    "mode": "AST declaration extraction; original bodies preserved",
+    "declarations": [
+      {
+        "name": "Wagon",
+        "line": 2
+      },
+      {
+        "name": "YardTrain",
+        "line": 3
+      },
+      {
+        "name": "YardData",
+        "line": 4
+      },
+      {
+        "name": "YardMetrics",
+        "line": 5
+      },
+      {
+        "name": "OptimizationResult",
+        "line": 15
+      },
+      {
+        "name": "ResourceState",
+        "line": 17
+      },
+      {
+        "name": "YardState",
+        "line": 18
+      }
+    ],
+    "original_sha256": "553c79a4046b2ef5a35099059758b44ed6eb5fd92ad9a719cfb0f758654dc2d1"
+  },
+  {
+    "original": "frontend/src/resource-pages.tsx",
+    "target": "source/wagons_consists/YardBrain.tsx",
+    "mode": "AST declaration extraction; original bodies preserved",
+    "declarations": [
+      {
+        "name": "useResource",
+        "line": 10
+      },
+      {
+        "name": "Provenance",
+        "line": 18
+      },
+      {
+        "name": "CalculateButton",
+        "line": 19
+      },
+      {
+        "name": "CompareMetric",
+        "line": 20
+      },
+      {
+        "name": "YardBrain",
+        "line": 22
+      },
+      {
+        "name": "YardSchematic",
+        "line": 40
+      }
+    ],
+    "original_sha256": "0ef155580b06b135d8070803a075bf60a754b3433612e8f0347027e2afecad05"
+  },
+  {
+    "original": "frontend/src/main.tsx",
+    "target": "source/shared_required_only/frontend/src/main.tsx",
+    "mode": "Reference host adapter: only three routes/nav links; root redirects /dispatch; unused imports removed; remaining shell unchanged",
+    "original_sha256": "211eaf5db5a351ea8cde5db95d9088c9dcede42020ff3a2869a3a3f09393e61e"
+  },
+  {
+    "original": "frontend/src/services.ts",
+    "target": "source/shared_required_only/frontend/src/services.ts",
+    "mode": "exact text copy",
+    "original_sha256": "9fa6f31773f363c1029dfb317aba626da7b9307a9f8ed88473e45d525e592c52"
+  },
+  {
+    "original": "frontend/src/hooks.ts",
+    "target": "source/shared_required_only/frontend/src/hooks.ts",
+    "mode": "exact text copy",
+    "original_sha256": "03e1ac7643c48a163539f83ea4d282b2792d7477b3097c192ce16a1058aa9058"
+  },
+  {
+    "original": "frontend/src/i18n.tsx",
+    "target": "source/shared_required_only/frontend/src/i18n.tsx",
+    "mode": "exact text copy",
+    "original_sha256": "8c16106dfb5c04082511c9b3c5394e0dfb2552290647dd95c94c53feca559911"
+  },
+  {
+    "original": "frontend/src/locales/catalog.json",
+    "target": "source/shared_required_only/frontend/src/locales/catalog.json",
+    "mode": "exact text copy",
+    "original_sha256": "b71791c38e64f002d30545fabf1f8101186c37db5ee5ac0899c9b1887e382418"
+  },
+  {
+    "original": "frontend/src/locales/resources.json",
+    "target": "source/shared_required_only/frontend/src/locales/resources.json",
+    "mode": "exact text copy",
+    "original_sha256": "69635970dded0437c19c45472da9705967c0a71a624631e3a8b0f0ad765302ea"
+  },
+  {
+    "original": "frontend/src/style.css",
+    "target": "source/shared_required_only/frontend/src/style.css",
+    "mode": "Optional reference styling: selectors exclusively belonging to omitted pages removed",
+    "original_sha256": "d5041de11c92ddf0ba03f5bc66b629524d8fe6ed491e9de626873540b4e34422"
+  },
+  {
+    "original": "frontend/src/resource-style.css",
+    "target": "source/shared_required_only/frontend/src/resource-style.css",
+    "mode": "Optional reference styling: selectors exclusively belonging to omitted pages removed",
+    "original_sha256": "7f1fe7527d342a22bfea841ab84b6ec5fa01e41ec18fc6310b9a2ce198c0e876"
+  }
+]

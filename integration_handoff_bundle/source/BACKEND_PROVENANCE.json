@@ -1,0 +1,150 @@
+[
+  {
+    "original": "backend/app/__init__.py",
+    "target": "source/shared_required_only/backend/app/__init__.py",
+    "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/models.py",
+    "target": "source/shared_required_only/backend/app/models.py",
+    "original_sha256": "c6c5e8cd3b8282275aca5612ad9bff5b61fe79d7ff9cb46039ecf1499e752d72",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/conflicts.py",
+    "target": "source/shared_required_only/backend/app/conflicts.py",
+    "original_sha256": "452104ebb6e6dcdad14016df22322541036914d6f144464a0b72e010c0379f5e",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/scheduler.py",
+    "target": "source/shared_required_only/backend/app/scheduler.py",
+    "original_sha256": "73266cd45218b179763dfb66241c0764daa9af643f146dd0597ff90650e6e6c8",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/quality.py",
+    "target": "source/shared_required_only/backend/app/quality.py",
+    "original_sha256": "ccfef84d0a849a72e24a20a1e564da7990845c9f51bc336a12c608633c795620",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/ato.py",
+    "target": "source/shared_required_only/backend/app/ato.py",
+    "original_sha256": "1620ee80008511da7bf4df5c381ea3f0fdaee6eba2695fcb322510c2e5cd9544",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/ingestion.py",
+    "target": "source/shared_required_only/backend/app/ingestion.py",
+    "original_sha256": "454258c8c3ad8fc90700c9c17e7f37473a8f1ac3c073db4dcc8c398d4916b92e",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/history.py",
+    "target": "source/shared_required_only/backend/app/history.py",
+    "original_sha256": "f6f04a6dc05c7c896e7cdac2f637b1a5fc9744612ebbedf18d365f37cbaa9480",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/reports.py",
+    "target": "source/shared_required_only/backend/app/reports.py",
+    "original_sha256": "fd5e3370193de4b12760924ef62b5215f68032016525f6f9cc6fb29ba01150e7",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/app/simulator.py",
+    "target": "source/shared_required_only/backend/app/simulator.py",
+    "original_sha256": "ec41221cda91017833b9767dd4cc441df2e1cb33ef1ca8bb2a363b398eec776c",
+    "mode": "adapted path/scope; see SOURCE_PROVENANCE.md"
+  },
+  {
+    "original": "backend/app/yard.py",
+    "target": "source/shared_required_only/backend/app/yard.py",
+    "original_sha256": "3eca09cdfae53e9cc3edd07ab4a4722ff57c115aa560d914e74994e31ec69194",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/main.py",
+    "target": "source/shared_required_only/backend/main.py",
+    "original_sha256": "2db60366a3e32a7d32694fb259e01034be5b6d778db36f517dd62dbd2ff0619b",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/requirements.txt",
+    "target": "source/shared_required_only/backend/requirements.txt",
+    "original_sha256": "8688202be162d1f25d18a063d28cf4099c820617100bcadc73b8cf2b8af4f6b5",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/generate_demo_data.py",
+    "target": "source/shared_required_only/backend/app/generate_demo_data.py",
+    "original_sha256": "8ae3a8798ce2765562f144501084ed9ab918451fc72690d654f70f8f841b561e",
+    "mode": "adapted path/scope; see SOURCE_PROVENANCE.md"
+  },
+  {
+    "original": "backend/app/api.py",
+    "target": "source/shared_required_only/backend/app/api.py",
+    "mode": "AST top-level extraction; only required routes + scenario/configuration support; resource endpoints limited to yard"
+  },
+  {
+    "original": "backend/app/resources.py",
+    "target": "source/shared_required_only/backend/app/resources.py",
+    "mode": "Yard branch adapter; original yard response/validation/lifecycle retained; fleet/maintenance branches excluded"
+  },
+  {
+    "original": "backend/data/blocks.json",
+    "target": "data/blocks.json",
+    "original_sha256": "9819f0cf6d1c568c77d636b72adacbb07840fee4c25ac3c3c05c43d1542b7d20",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/incidents.json",
+    "target": "data/incidents.json",
+    "original_sha256": "526b12b7c62a63eeec5c72163d51a17daf1e55adf54b64bb81c62ef904965a49",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/metadata.json",
+    "target": "data/metadata.json",
+    "original_sha256": "53dbf425d07c1bde17cac8a192f2cb9ac08d21c5b75b2f4a6998e991b90c0ef8",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/schedule.json",
+    "target": "data/schedule.json",
+    "original_sha256": "e02d857085b72efa0a51970de4dfdaf4d297583c9a9c4bf7b0696a147aea10a0",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/signals.json",
+    "target": "data/signals.json",
+    "original_sha256": "dabf521034eaf867ed4957a6ad5504f8529b2ebd3be5a95ff09e600df5e8cb29",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/speed_limits.json",
+    "target": "data/speed_limits.json",
+    "original_sha256": "b863a29fd8d2a7dcfce79c161de2f708830d23f7d73e3ae14e71fe5a35531254",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/stations.json",
+    "target": "data/stations.json",
+    "original_sha256": "2117f449dce199428331c366e84dc0d0ea6613948ad1215a07ec8587d97fff79",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/timetable.json",
+    "target": "data/timetable.json",
+    "original_sha256": "a9bc3d491ec3a4bf83004aac37e32b427c95a82944adc26974d6b755005c2fcd",
+    "mode": "exact text copy"
+  },
+  {
+    "original": "backend/data/trains.json",
+    "target": "data/trains.json",
+    "original_sha256": "46f0ba4370ddae80b57ee09191b4454b58473bd0ff0d0d93f38f92a5093db731",
+    "mode": "exact text copy"
+  }
+]

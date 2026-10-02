@@ -1,0 +1,58 @@
+[
+  {
+    "id": "S1",
+    "name": "Arqa Junction",
+    "distance_km": 0.0,
+    "platform_count": 2,
+    "siding_available": false
+  },
+  {
+    "id": "S2",
+    "name": "Sarybel",
+    "distance_km": 18.0,
+    "platform_count": 3,
+    "siding_available": true
+  },
+  {
+    "id": "S3",
+    "name": "Kumyr",
+    "distance_km": 43.0,
+    "platform_count": 2,
+    "siding_available": false
+  },
+  {
+    "id": "S4",
+    "name": "Terek",
+    "distance_km": 61.0,
+    "platform_count": 3,
+    "siding_available": true
+  },
+  {
+    "id": "S5",
+    "name": "Bastau",
+    "distance_km": 89.0,
+    "platform_count": 2,
+    "siding_available": false
+  },
+  {
+    "id": "S6",
+    "name": "Zhalyn",
+    "distance_km": 112.0,
+    "platform_count": 2,
+    "siding_available": false
+  },
+  {
+    "id": "S7",
+    "name": "Aksai Yard",
+    "distance_km": 138.0,
+    "platform_count": 3,
+    "siding_available": true
+  },
+  {
+    "id": "S8",
+    "name": "Dala Terminal",
+    "distance_km": 164.0,
+    "platform_count": 2,
+    "siding_available": false
+  }
+]

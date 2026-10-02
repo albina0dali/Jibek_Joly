@@ -18,4 +18,8 @@ const response=await fetcher('/api/stream?session='+s.id,'GET',null,'user');asse
 const complete=JSON.parse(fs.readFileSync('web/demo-trip.json','utf8'));const saved=await (await fetcher('/api/sessions','POST',{world:complete},'user')).json();assert(saved.id);const full=await(await fetcher('/api/history?session='+saved.id,'GET',null,'user')).json();assert.equal(full[0].time,0);assert(full.length>180);assert(full.at(-1).world.done);const reopened=await(await fetcher('/api/trip?session='+saved.id,'GET',null,'user')).json();assert.equal(reopened.world.timeline.length,complete.timeline.length);assert.equal((await fetcher('/api/trip?session='+saved.id,'GET',null,'different')).status,404);console.log('Full trip persisted and reopened:',full.length,'frames starting at zero, ending at',full.at(-1).time);
 const spec=await(await fetcher('/api/openapi.json')).json();assert.equal(spec.openapi,'3.0.3');assert(spec.paths['/api/history']);assert(spec.paths['/eco/advice']);assert(spec.components.schemas.EcoRequest);
 console.log('PASS: Worker assets, D1 migrations, settings 401/403/400/200, owner isolation, six-policy replanning, saved history, 1 Hz SSE, OpenAPI.');
+assert(spec.paths['/api/extension/state']);assert(spec.paths['/api/extension/resources/yard/apply']);
+assert.equal((await fetcher('/api/extension/state')).status,401);
+assert.equal((await fetcher('/api/extension/state','GET',null,'user')).status,503);
+console.log('PASS: extension OpenAPI namespace, sign-in guard and explicit unavailable-service response.');
 }finally{await mf.dispose();}

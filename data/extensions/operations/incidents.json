@@ -1,0 +1,12 @@
+[
+  {
+    "type": "delay_10",
+    "location_id": "P104",
+    "duration": 600
+  },
+  {
+    "type": "block_closure",
+    "location_id": "B07",
+    "duration": 600
+  }
+]

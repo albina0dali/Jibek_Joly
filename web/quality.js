@@ -1,3 +1,4 @@
+import {calculateMovementIndex} from './movement-index.js';
 export const defaultConfig={weights:[30,15,20,20,15],normal:80,critical:50,priorities:[3,2,1]};
 let activeConfig=defaultConfig;
 export const getQualityConfig=()=>activeConfig;
@@ -16,4 +17,15 @@ export function quality(w,c=w.config||activeConfig){
  const factors=[punctuality,capacity,compliance,conflicts,accuracy],sum=c.weights.reduce((a,b)=>a+b,0);
  const index=Math.round(factors.reduce((a,b,i)=>a+b*c.weights[i],0)/sum);
  return {index,factors:factors.map(Math.round),level:index>=c.normal?'good':index<c.critical?'bad':'warn',energy:ts.reduce((s,t)=>s+(t.energy||0),0),reference:ts.reduce((s,t)=>s+(t.distance_work||0)*(t.massTons||1000)/1000,0),conflicting};
+}
+// Keep the original schedule-compliance score for legacy engine contracts.
+// Every visible network index uses this adapter and the shared model instead.
+export function movementQuality(w){
+ const legacy=quality(w),active=w.trains.filter(t=>t.finished===null);
+ const measured=active.length?active:w.trains;
+ const delay=t=>Math.max(0,t.delay||0)*60,priority=t=>w.config?.priorities?.[t.type]??t.weight??1;
+ const advisories=w.trains.map(t=>t.ecoAdvice).filter(a=>a?.baseline_energy_proxy_units>0);
+ const savings=advisories.length?advisories.reduce((s,a)=>s+(1-a.energy_proxy_units/a.baseline_energy_proxy_units)*100,0)/advisories.length:0;
+ const q=calculateMovementIndex({weightedDelaySeconds:measured.reduce((s,t)=>s+delay(t)*priority(t),0)/Math.max(1,measured.reduce((s,t)=>s+priority(t),0)),averageDelaySeconds:measured.reduce((s,t)=>s+delay(t),0)/Math.max(1,measured.length),utilization:active.length?active.filter(t=>t.state==='running'&&t.actualSpeed>0).length/active.length:.7,conflicts:legacy.conflicting+w.trains.reduce((s,t)=>s+(t.signalViolations||0),0),energySavingsPercent:savings});
+ return {...legacy,...q};
 }
